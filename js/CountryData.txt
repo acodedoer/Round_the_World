@@ -1,0 +1,11 @@
+var Australia = [{name: "Australia", capital:"Canberra", city:"Sydney"}, {name: "New Zealand", capital:"Wellington", city: "Auckland"},{name: "Nauru", capital:"Yaren District", city:"Baitsi District"},{name: "Fiji", capital:"Suva", city:"Lubasa"},{name: "Kiribati", capital:"Tarawa", city:"Bikenibeu"},{name: "Marshall Islands", capital:"Majuro", city:""},{name: "Micornesia", capital:"Palikir", city:""},{name: "Palau", capital:"Ngerulmud", city:""}, {name: "Papua New Guinea", capital:"Port Moresby", city:""},{name: "Samao", capital:"Apia", city:""},{name: "Solomon Islands", capital:"Honiara", city:""},{name: "Tonga", capital:"Nuku'alofa", city:""}, {name: "Tuvalu", capital:"Funafuti", city:""},{name: "Vanautu", capital:"Port Vila", city:""}];
+
+var Africa= [{name: "Nigeria", capital:"Abuja", city:"Lagos"}, {name: "", capital:"", city:""}];
+
+var Asia= [{name: "Japan", capital:"Tokyo", city:"Seoul"}, {name: "", capital:"", city:""}];
+
+var Europe= [{name: "England", capital:"London", city:"Manchester"}, {name: "", capital:"", city:""}];
+
+var NorthAmerica= [{name: "United Sates", capital:"Washington DC", city:"New York"}, {name: "", capital:"", city:""}];
+
+var SouthAmerica= [{name: "Argentina", capital:"Buenos Aires", city:"Cordoba"}, {name: "", capital:"", city:""}];

@@ -1,0 +1,16 @@
+{
+    "1": {"name": "Australia", "capital":"Canberra"},
+    "2": {"name": "New Zealand", "capital":"Wellington"},
+    "3": {"name": "Nauru", "capital":"Yaren District"},
+    "4": {"name": "Fiji", "capital":"Suva"},
+    "5": {"name": "Kiribati", "capital":"Tarawa"},
+    "6": {"name": "Marshall Islands", "capital":"Majuro"},
+    "7": {"name": "Micornesia", "capital":"Palikir"},
+    "8": {"name": "Palau", "capital":"Ngerulmud"},
+    "9": {"name": "Papua New Guinea", "capital":"Port Moresby"},
+    "10": {"name": "Samao", "capital":"Apia"},
+    "11": {"name": "Solomon Islands", "capital":"Honiara"},
+    "12": {"name": "Tonga", "capital":"Nuku'alofa"},
+    "13": {"name": "Tuvalu", "capital":"Funafuti"},
+    "14": {"name": "Vanautu", "capital":"Port Vila"}
+}
