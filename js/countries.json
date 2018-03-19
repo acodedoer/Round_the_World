@@ -8,7 +8,9 @@
     "currency": "EUR",
     "languages": [
       "ca"
-    ]
+    ],
+    "cities":["", "", "", "", "", ""]
+    
   },
   "AE": {
     "name": "United Arab Emirates",
