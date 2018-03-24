@@ -6,11 +6,10 @@
     "continent": "EU",
     "capital": "Andorra la Vella",
     "currency": "EUR",
+    "cities":["","","",""],
     "languages": [
       "ca"
-    ],
-    "cities":["", "", "", "", "", ""]
-    
+    ]
   },
   "AE": {
     "name": "United Arab Emirates",
@@ -19,6 +18,7 @@
     "continent": "AS",
     "capital": "Abu Dhabi",
     "currency": "AED",
+    "cities":["","","",""],
     "languages": [
       "ar"
     ]
@@ -30,6 +30,7 @@
     "continent": "AS",
     "capital": "Kabul",
     "currency": "AFN",
+    "cities":["","","",""],
     "languages": [
       "ps",
       "uz",
@@ -43,6 +44,7 @@
     "continent": "NA",
     "capital": "Saint John's",
     "currency": "XCD",
+    "cities":["","","",""],
     "languages": [
       "en"
     ]
@@ -54,6 +56,7 @@
     "continent": "NA",
     "capital": "The Valley",
     "currency": "XCD",
+    "cities":["","","",""],
     "languages": [
       "en"
     ]
@@ -65,6 +68,7 @@
     "continent": "EU",
     "capital": "Tirana",
     "currency": "ALL",
+    "cities":["","","",""],
     "languages": [
       "sq"
     ]
@@ -76,6 +80,7 @@
     "continent": "AS",
     "capital": "Yerevan",
     "currency": "AMD",
+    "cities":["","","",""],
     "languages": [
       "hy",
       "ru"
@@ -88,6 +93,7 @@
     "continent": "AF",
     "capital": "Luanda",
     "currency": "AOA",
+    "cities":["Huambo","Benguela","N'dalatando"],
     "languages": [
       "pt"
     ]
@@ -99,6 +105,7 @@
     "continent": "AN",
     "capital": "",
     "currency": "",
+    "cities":["","","",""],
     "languages": []
   },
   "AR": {
@@ -108,6 +115,7 @@
     "continent": "SA",
     "capital": "Buenos Aires",
     "currency": "ARS",
+    "cities":["","","",""],
     "languages": [
       "es",
       "gn"
@@ -120,6 +128,7 @@
     "continent": "OC",
     "capital": "Pago Pago",
     "currency": "USD",
+    "cities":["","","",""],
     "languages": [
       "en",
       "sm"
@@ -132,6 +141,7 @@
     "continent": "EU",
     "capital": "Vienna",
     "currency": "EUR",
+    "cities":["","","",""],
     "languages": [
       "de"
     ]
@@ -143,6 +153,7 @@
     "continent": "OC",
     "capital": "Canberra",
     "currency": "AUD",
+    "cities":["","","",""],
     "languages": [
       "en"
     ]
@@ -154,6 +165,7 @@
     "continent": "NA",
     "capital": "Oranjestad",
     "currency": "AWG",
+    "cities":["","","",""],
     "languages": [
       "nl",
       "pa"
@@ -166,6 +178,7 @@
     "continent": "EU",
     "capital": "Mariehamn",
     "currency": "EUR",
+    "cities":["","","",""],
     "languages": [
       "sv"
     ]
@@ -177,6 +190,7 @@
     "continent": "AS",
     "capital": "Baku",
     "currency": "AZN",
+    "cities":["","","",""],
     "languages": [
       "az"
     ]
@@ -188,6 +202,7 @@
     "continent": "EU",
     "capital": "Sarajevo",
     "currency": "BAM",
+    "cities":["","","",""],
     "languages": [
       "bs",
       "hr",
@@ -201,6 +216,7 @@
     "continent": "NA",
     "capital": "Bridgetown",
     "currency": "BBD",
+    "cities":["","","",""],
     "languages": [
       "en"
     ]
@@ -212,6 +228,7 @@
     "continent": "AS",
     "capital": "Dhaka",
     "currency": "BDT",
+    "cities":["","","",""],
     "languages": [
       "bn"
     ]
@@ -223,6 +240,7 @@
     "continent": "EU",
     "capital": "Brussels",
     "currency": "EUR",
+    "cities":["","","",""],
     "languages": [
       "nl",
       "fr",
@@ -236,6 +254,7 @@
     "continent": "AF",
     "capital": "Ouagadougou",
     "currency": "XOF",
+    "cities":["Bobo-Dioulasso","Koudougou","Ouahigouya"],
     "languages": [
       "fr",
       "ff"
@@ -248,6 +267,7 @@
     "continent": "EU",
     "capital": "Sofia",
     "currency": "BGN",
+    "cities":["","","",""],
     "languages": [
       "bg"
     ]
@@ -259,6 +279,7 @@
     "continent": "AS",
     "capital": "Manama",
     "currency": "BHD",
+    "cities":["","","",""],
     "languages": [
       "ar"
     ]
@@ -270,6 +291,7 @@
     "continent": "AF",
     "capital": "Bujumbura",
     "currency": "BIF",
+    "cities":["","","",""],
     "languages": [
       "fr",
       "rn"
@@ -282,6 +304,7 @@
     "continent": "AF",
     "capital": "Porto-Novo",
     "currency": "XOF",
+    "cities":["","","",""],
     "languages": [
       "fr"
     ]
@@ -293,6 +316,7 @@
     "continent": "NA",
     "capital": "Gustavia",
     "currency": "EUR",
+    "cities":["","","",""],
     "languages": [
       "fr"
     ]
@@ -304,6 +328,7 @@
     "continent": "NA",
     "capital": "Hamilton",
     "currency": "BMD",
+    "cities":["","","",""],
     "languages": [
       "en"
     ]
@@ -315,6 +340,7 @@
     "continent": "AS",
     "capital": "Bandar Seri Begawan",
     "currency": "BND",
+    "cities":["","","",""],
     "languages": [
       "ms"
     ]
@@ -326,6 +352,7 @@
     "continent": "SA",
     "capital": "Sucre",
     "currency": "BOB,BOV",
+    "cities":["","","",""],
     "languages": [
       "es",
       "ay",
@@ -339,6 +366,7 @@
     "continent": "NA",
     "capital": "Kralendijk",
     "currency": "USD",
+    "cities":["","","",""],
     "languages": [
       "nl"
     ]
@@ -350,6 +378,7 @@
     "continent": "SA",
     "capital": "Brasília",
     "currency": "BRL",
+    "cities":["","","",""],
     "languages": [
       "pt"
     ]
@@ -361,6 +390,7 @@
     "continent": "NA",
     "capital": "Nassau",
     "currency": "BSD",
+    "cities":["","","",""],
     "languages": [
       "en"
     ]
@@ -372,6 +402,7 @@
     "continent": "AS",
     "capital": "Thimphu",
     "currency": "BTN,INR",
+    "cities":["","","",""],
     "languages": [
       "dz"
     ]
@@ -383,6 +414,7 @@
     "continent": "AN",
     "capital": "",
     "currency": "NOK",
+    "cities":["","","",""],
     "languages": []
   },
   "BW": {
@@ -392,6 +424,7 @@
     "continent": "AF",
     "capital": "Gaborone",
     "currency": "BWP",
+    "cities":["Francistown","Molepolole","Maun"],
     "languages": [
       "en",
       "tn"
@@ -404,6 +437,7 @@
     "continent": "EU",
     "capital": "Minsk",
     "currency": "BYR",
+    "cities":["","","",""],
     "languages": [
       "be",
       "ru"
@@ -416,6 +450,7 @@
     "continent": "NA",
     "capital": "Belmopan",
     "currency": "BZD",
+    "cities":["","","",""],
     "languages": [
       "en",
       "es"
@@ -428,6 +463,7 @@
     "continent": "NA",
     "capital": "Ottawa",
     "currency": "CAD",
+    "cities":["","","",""],
     "languages": [
       "en",
       "fr"
@@ -440,6 +476,7 @@
     "continent": "AS",
     "capital": "West Island",
     "currency": "AUD",
+    "cities":["","","",""],
     "languages": [
       "en"
     ]
@@ -451,6 +488,7 @@
     "continent": "AF",
     "capital": "Kinshasa",
     "currency": "CDF",
+    "cities":["","","",""],
     "languages": [
       "fr",
       "ln",
@@ -466,6 +504,7 @@
     "continent": "AF",
     "capital": "Bangui",
     "currency": "XAF",
+    "cities":["","","",""],
     "languages": [
       "fr",
       "sg"
@@ -478,6 +517,7 @@
     "continent": "AF",
     "capital": "Brazzaville",
     "currency": "XAF",
+    "cities":["","","",""],
     "languages": [
       "fr",
       "ln"
@@ -490,6 +530,7 @@
     "continent": "EU",
     "capital": "Bern",
     "currency": "CHE,CHF,CHW",
+    "cities":["","","",""],
     "languages": [
       "de",
       "fr",
@@ -503,6 +544,7 @@
     "continent": "AF",
     "capital": "Yamoussoukro",
     "currency": "XOF",
+    "cities":["","","",""],
     "languages": [
       "fr"
     ]
@@ -514,6 +556,7 @@
     "continent": "OC",
     "capital": "Avarua",
     "currency": "NZD",
+    "cities":["","","",""],
     "languages": [
       "en"
     ]
@@ -525,6 +568,7 @@
     "continent": "SA",
     "capital": "Santiago",
     "currency": "CLF,CLP",
+    "cities":["","","",""],
     "languages": [
       "es"
     ]
@@ -536,6 +580,7 @@
     "continent": "AF",
     "capital": "Yaoundé",
     "currency": "XAF",
+    "cities":["","","",""],
     "languages": [
       "en",
       "fr"
@@ -548,6 +593,7 @@
     "continent": "AS",
     "capital": "Beijing",
     "currency": "CNY",
+    "cities":["","","",""],
     "languages": [
       "zh"
     ]
@@ -559,6 +605,7 @@
     "continent": "SA",
     "capital": "Bogotá",
     "currency": "COP",
+    "cities":["","","",""],
     "languages": [
       "es"
     ]
@@ -570,6 +617,7 @@
     "continent": "NA",
     "capital": "San José",
     "currency": "CRC",
+    "cities":["","","",""],
     "languages": [
       "es"
     ]
@@ -581,6 +629,7 @@
     "continent": "NA",
     "capital": "Havana",
     "currency": "CUC,CUP",
+    "cities":["","","",""],
     "languages": [
       "es"
     ]
@@ -592,6 +641,7 @@
     "continent": "AF",
     "capital": "Praia",
     "currency": "CVE",
+    "cities":["","","",""],
     "languages": [
       "pt"
     ]
@@ -603,6 +653,7 @@
     "continent": "NA",
     "capital": "Willemstad",
     "currency": "ANG",
+    "cities":["","","",""],
     "languages": [
       "nl",
       "pa",
@@ -616,6 +667,7 @@
     "continent": "AS",
     "capital": "Flying Fish Cove",
     "currency": "AUD",
+    "cities":["","","",""],
     "languages": [
       "en"
     ]
@@ -627,6 +679,7 @@
     "continent": "EU",
     "capital": "Nicosia",
     "currency": "EUR",
+    "cities":["","","",""],
     "languages": [
       "el",
       "tr",
@@ -640,6 +693,7 @@
     "continent": "EU",
     "capital": "Prague",
     "currency": "CZK",
+    "cities":["","","",""],
     "languages": [
       "cs",
       "sk"
@@ -652,6 +706,7 @@
     "continent": "EU",
     "capital": "Berlin",
     "currency": "EUR",
+    "cities":["","","",""],
     "languages": [
       "de"
     ]
@@ -663,6 +718,7 @@
     "continent": "AF",
     "capital": "Djibouti",
     "currency": "DJF",
+    "cities":["","","",""],
     "languages": [
       "fr",
       "ar"
@@ -675,6 +731,7 @@
     "continent": "EU",
     "capital": "Copenhagen",
     "currency": "DKK",
+    "cities":["","","",""],
     "languages": [
       "da"
     ]
@@ -686,6 +743,7 @@
     "continent": "NA",
     "capital": "Roseau",
     "currency": "XCD",
+    "cities":["","","",""],
     "languages": [
       "en"
     ]
@@ -697,6 +755,7 @@
     "continent": "NA",
     "capital": "Santo Domingo",
     "currency": "DOP",
+    "cities":["","","",""],
     "languages": [
       "es"
     ]
@@ -708,6 +767,7 @@
     "continent": "AF",
     "capital": "Algiers",
     "currency": "DZD",
+    "cities":["","","",""],
     "languages": [
       "ar"
     ]
@@ -719,6 +779,7 @@
     "continent": "SA",
     "capital": "Quito",
     "currency": "USD",
+    "cities":["","","",""],
     "languages": [
       "es"
     ]
@@ -730,6 +791,7 @@
     "continent": "EU",
     "capital": "Tallinn",
     "currency": "EUR",
+    "cities":["","","",""],
     "languages": [
       "et"
     ]
@@ -741,6 +803,7 @@
     "continent": "AF",
     "capital": "Cairo",
     "currency": "EGP",
+    "cities":["","","",""],
     "languages": [
       "ar"
     ]
@@ -752,6 +815,7 @@
     "continent": "AF",
     "capital": "El Aaiún",
     "currency": "MAD,DZD,MRO",
+    "cities":["","","",""],
     "languages": [
       "es"
     ]
@@ -763,6 +827,7 @@
     "continent": "AF",
     "capital": "Asmara",
     "currency": "ERN",
+    "cities":["","","",""],
     "languages": [
       "ti",
       "ar",
@@ -776,6 +841,7 @@
     "continent": "EU",
     "capital": "Madrid",
     "currency": "EUR",
+    "cities":["","","",""],
     "languages": [
       "es",
       "eu",
@@ -791,6 +857,7 @@
     "continent": "AF",
     "capital": "Addis Ababa",
     "currency": "ETB",
+    "cities":["","","",""],
     "languages": [
       "am"
     ]
@@ -802,6 +869,7 @@
     "continent": "EU",
     "capital": "Helsinki",
     "currency": "EUR",
+    "cities":["","","",""],
     "languages": [
       "fi",
       "sv"
@@ -814,6 +882,7 @@
     "continent": "OC",
     "capital": "Suva",
     "currency": "FJD",
+    "cities":["","","",""],
     "languages": [
       "en",
       "fj",
@@ -828,6 +897,7 @@
     "continent": "SA",
     "capital": "Stanley",
     "currency": "FKP",
+    "cities":["","","",""],
     "languages": [
       "en"
     ]
@@ -839,6 +909,7 @@
     "continent": "OC",
     "capital": "Palikir",
     "currency": "USD",
+    "cities":["","","",""],
     "languages": [
       "en"
     ]
@@ -850,6 +921,7 @@
     "continent": "EU",
     "capital": "Tórshavn",
     "currency": "DKK",
+    "cities":["","","",""],
     "languages": [
       "fo"
     ]
@@ -861,6 +933,7 @@
     "continent": "EU",
     "capital": "Paris",
     "currency": "EUR",
+    "cities":["","","",""],
     "languages": [
       "fr"
     ]
@@ -872,6 +945,7 @@
     "continent": "AF",
     "capital": "Libreville",
     "currency": "XAF",
+    "cities":["","","",""],
     "languages": [
       "fr"
     ]
@@ -883,7 +957,9 @@
     "continent": "EU",
     "capital": "London",
     "currency": "GBP",
-    "languages": [
+    "cities":["","","",""],
+    "cities":["","","",""],
+      "languages": [
       "en"
     ]
   },
@@ -894,7 +970,7 @@
     "continent": "NA",
     "capital": "St. George's",
     "currency": "XCD",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "en"
     ]
   },
@@ -905,7 +981,7 @@
     "continent": "AS",
     "capital": "Tbilisi",
     "currency": "GEL",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "ka"
     ]
   },
@@ -916,7 +992,7 @@
     "continent": "SA",
     "capital": "Cayenne",
     "currency": "EUR",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "fr"
     ]
   },
@@ -927,7 +1003,7 @@
     "continent": "EU",
     "capital": "St. Peter Port",
     "currency": "GBP",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "en",
       "fr"
     ]
@@ -939,7 +1015,7 @@
     "continent": "AF",
     "capital": "Accra",
     "currency": "GHS",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "en"
     ]
   },
@@ -950,7 +1026,7 @@
     "continent": "EU",
     "capital": "Gibraltar",
     "currency": "GIP",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "en"
     ]
   },
@@ -961,7 +1037,7 @@
     "continent": "NA",
     "capital": "Nuuk",
     "currency": "DKK",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "kl"
     ]
   },
@@ -972,7 +1048,7 @@
     "continent": "AF",
     "capital": "Banjul",
     "currency": "GMD",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "en"
     ]
   },
@@ -983,7 +1059,7 @@
     "continent": "AF",
     "capital": "Conakry",
     "currency": "GNF",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "fr",
       "ff"
     ]
@@ -995,7 +1071,7 @@
     "continent": "NA",
     "capital": "Basse-Terre",
     "currency": "EUR",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "fr"
     ]
   },
@@ -1006,7 +1082,7 @@
     "continent": "AF",
     "capital": "Malabo",
     "currency": "XAF",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "es",
       "fr"
     ]
@@ -1018,7 +1094,7 @@
     "continent": "EU",
     "capital": "Athens",
     "currency": "EUR",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "el"
     ]
   },
@@ -1029,7 +1105,7 @@
     "continent": "AN",
     "capital": "King Edward Point",
     "currency": "GBP",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "en"
     ]
   },
@@ -1040,7 +1116,7 @@
     "continent": "NA",
     "capital": "Guatemala City",
     "currency": "GTQ",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "es"
     ]
   },
@@ -1051,7 +1127,7 @@
     "continent": "OC",
     "capital": "Hagåtña",
     "currency": "USD",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "en",
       "ch",
       "es"
@@ -1064,7 +1140,7 @@
     "continent": "AF",
     "capital": "Bissau",
     "currency": "XOF",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "pt"
     ]
   },
@@ -1075,7 +1151,7 @@
     "continent": "SA",
     "capital": "Georgetown",
     "currency": "GYD",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "en"
     ]
   },
@@ -1086,7 +1162,7 @@
     "continent": "AS",
     "capital": "City of Victoria",
     "currency": "HKD",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "zh",
       "en"
     ]
@@ -1098,7 +1174,7 @@
     "continent": "AN",
     "capital": "",
     "currency": "AUD",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "en"
     ]
   },
@@ -1109,7 +1185,7 @@
     "continent": "NA",
     "capital": "Tegucigalpa",
     "currency": "HNL",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "es"
     ]
   },
@@ -1120,7 +1196,7 @@
     "continent": "EU",
     "capital": "Zagreb",
     "currency": "HRK",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "hr"
     ]
   },
@@ -1131,7 +1207,7 @@
     "continent": "NA",
     "capital": "Port-au-Prince",
     "currency": "HTG,USD",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "fr",
       "ht"
     ]
@@ -1143,7 +1219,7 @@
     "continent": "EU",
     "capital": "Budapest",
     "currency": "HUF",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "hu"
     ]
   },
@@ -1154,7 +1230,7 @@
     "continent": "AS",
     "capital": "Jakarta",
     "currency": "IDR",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "id"
     ]
   },
@@ -1165,7 +1241,7 @@
     "continent": "EU",
     "capital": "Dublin",
     "currency": "EUR",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "ga",
       "en"
     ]
@@ -1177,7 +1253,7 @@
     "continent": "AS",
     "capital": "Jerusalem",
     "currency": "ILS",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "he",
       "ar"
     ]
@@ -1189,7 +1265,7 @@
     "continent": "EU",
     "capital": "Douglas",
     "currency": "GBP",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "en",
       "gv"
     ]
@@ -1201,7 +1277,7 @@
     "continent": "AS",
     "capital": "New Delhi",
     "currency": "INR",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "hi",
       "en"
     ]
@@ -1213,7 +1289,7 @@
     "continent": "AS",
     "capital": "Diego Garcia",
     "currency": "USD",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "en"
     ]
   },
@@ -1224,7 +1300,7 @@
     "continent": "AS",
     "capital": "Baghdad",
     "currency": "IQD",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "ar",
       "ku"
     ]
@@ -1236,7 +1312,7 @@
     "continent": "AS",
     "capital": "Tehran",
     "currency": "IRR",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "fa"
     ]
   },
@@ -1247,7 +1323,7 @@
     "continent": "EU",
     "capital": "Reykjavik",
     "currency": "ISK",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "is"
     ]
   },
@@ -1258,7 +1334,7 @@
     "continent": "EU",
     "capital": "Rome",
     "currency": "EUR",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "it"
     ]
   },
@@ -1269,7 +1345,7 @@
     "continent": "EU",
     "capital": "Saint Helier",
     "currency": "GBP",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "en",
       "fr"
     ]
@@ -1281,7 +1357,7 @@
     "continent": "NA",
     "capital": "Kingston",
     "currency": "JMD",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "en"
     ]
   },
@@ -1292,7 +1368,7 @@
     "continent": "AS",
     "capital": "Amman",
     "currency": "JOD",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "ar"
     ]
   },
@@ -1303,7 +1379,7 @@
     "continent": "AS",
     "capital": "Tokyo",
     "currency": "JPY",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "ja"
     ]
   },
@@ -1314,7 +1390,7 @@
     "continent": "AF",
     "capital": "Nairobi",
     "currency": "KES",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "en",
       "sw"
     ]
@@ -1326,7 +1402,7 @@
     "continent": "AS",
     "capital": "Bishkek",
     "currency": "KGS",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "ky",
       "ru"
     ]
@@ -1338,7 +1414,7 @@
     "continent": "AS",
     "capital": "Phnom Penh",
     "currency": "KHR",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "km"
     ]
   },
@@ -1349,7 +1425,7 @@
     "continent": "OC",
     "capital": "South Tarawa",
     "currency": "AUD",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "en"
     ]
   },
@@ -1360,7 +1436,7 @@
     "continent": "AF",
     "capital": "Moroni",
     "currency": "KMF",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "ar",
       "fr"
     ]
@@ -1372,7 +1448,7 @@
     "continent": "NA",
     "capital": "Basseterre",
     "currency": "XCD",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "en"
     ]
   },
@@ -1383,7 +1459,7 @@
     "continent": "AS",
     "capital": "Pyongyang",
     "currency": "KPW",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "ko"
     ]
   },
@@ -1394,7 +1470,7 @@
     "continent": "AS",
     "capital": "Seoul",
     "currency": "KRW",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "ko"
     ]
   },
@@ -1405,7 +1481,7 @@
     "continent": "AS",
     "capital": "Kuwait City",
     "currency": "KWD",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "ar"
     ]
   },
@@ -1416,7 +1492,7 @@
     "continent": "NA",
     "capital": "George Town",
     "currency": "KYD",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "en"
     ]
   },
@@ -1427,7 +1503,7 @@
     "continent": "AS",
     "capital": "Astana",
     "currency": "KZT",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "kk",
       "ru"
     ]
@@ -1439,7 +1515,7 @@
     "continent": "AS",
     "capital": "Vientiane",
     "currency": "LAK",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "lo"
     ]
   },
@@ -1450,7 +1526,7 @@
     "continent": "AS",
     "capital": "Beirut",
     "currency": "LBP",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "ar",
       "fr"
     ]
@@ -1462,7 +1538,7 @@
     "continent": "NA",
     "capital": "Castries",
     "currency": "XCD",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "en"
     ]
   },
@@ -1473,7 +1549,7 @@
     "continent": "EU",
     "capital": "Vaduz",
     "currency": "CHF",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "de"
     ]
   },
@@ -1484,7 +1560,7 @@
     "continent": "AS",
     "capital": "Colombo",
     "currency": "LKR",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "si",
       "ta"
     ]
@@ -1496,7 +1572,7 @@
     "continent": "AF",
     "capital": "Monrovia",
     "currency": "LRD",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "en"
     ]
   },
@@ -1507,7 +1583,7 @@
     "continent": "AF",
     "capital": "Maseru",
     "currency": "LSL,ZAR",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "en",
       "st"
     ]
@@ -1519,7 +1595,7 @@
     "continent": "EU",
     "capital": "Vilnius",
     "currency": "LTL",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "lt"
     ]
   },
@@ -1530,7 +1606,7 @@
     "continent": "EU",
     "capital": "Luxembourg",
     "currency": "EUR",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "fr",
       "de",
       "lb"
@@ -1543,7 +1619,7 @@
     "continent": "EU",
     "capital": "Riga",
     "currency": "EUR",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "lv"
     ]
   },
@@ -1554,7 +1630,7 @@
     "continent": "AF",
     "capital": "Tripoli",
     "currency": "LYD",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "ar"
     ]
   },
@@ -1565,7 +1641,7 @@
     "continent": "AF",
     "capital": "Rabat",
     "currency": "MAD",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "ar"
     ]
   },
@@ -1576,7 +1652,7 @@
     "continent": "EU",
     "capital": "Monaco",
     "currency": "EUR",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "fr"
     ]
   },
@@ -1587,7 +1663,7 @@
     "continent": "EU",
     "capital": "Chișinău",
     "currency": "MDL",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "ro"
     ]
   },
@@ -1598,7 +1674,7 @@
     "continent": "EU",
     "capital": "Podgorica",
     "currency": "EUR",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "sr",
       "bs",
       "sq",
@@ -1612,7 +1688,7 @@
     "continent": "NA",
     "capital": "Marigot",
     "currency": "EUR",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "en",
       "fr",
       "nl"
@@ -1625,7 +1701,7 @@
     "continent": "AF",
     "capital": "Antananarivo",
     "currency": "MGA",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "fr",
       "mg"
     ]
@@ -1637,7 +1713,7 @@
     "continent": "OC",
     "capital": "Majuro",
     "currency": "USD",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "en",
       "mh"
     ]
@@ -1649,7 +1725,7 @@
     "continent": "EU",
     "capital": "Skopje",
     "currency": "MKD",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "mk"
     ]
   },
@@ -1660,7 +1736,7 @@
     "continent": "AF",
     "capital": "Bamako",
     "currency": "XOF",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "fr"
     ]
   },
@@ -1671,7 +1747,7 @@
     "continent": "AS",
     "capital": "Naypyidaw",
     "currency": "MMK",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "my"
     ]
   },
@@ -1682,7 +1758,7 @@
     "continent": "AS",
     "capital": "Ulan Bator",
     "currency": "MNT",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "mn"
     ]
   },
@@ -1693,7 +1769,7 @@
     "continent": "AS",
     "capital": "",
     "currency": "MOP",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "zh",
       "pt"
     ]
@@ -1705,7 +1781,7 @@
     "continent": "OC",
     "capital": "Saipan",
     "currency": "USD",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "en",
       "ch"
     ]
@@ -1717,7 +1793,7 @@
     "continent": "NA",
     "capital": "Fort-de-France",
     "currency": "EUR",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "fr"
     ]
   },
@@ -1728,7 +1804,7 @@
     "continent": "AF",
     "capital": "Nouakchott",
     "currency": "MRO",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "ar"
     ]
   },
@@ -1739,7 +1815,7 @@
     "continent": "NA",
     "capital": "Plymouth",
     "currency": "XCD",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "en"
     ]
   },
@@ -1750,7 +1826,7 @@
     "continent": "EU",
     "capital": "Valletta",
     "currency": "EUR",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "mt",
       "en"
     ]
@@ -1762,7 +1838,7 @@
     "continent": "AF",
     "capital": "Port Louis",
     "currency": "MUR",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "en"
     ]
   },
@@ -1773,7 +1849,7 @@
     "continent": "AS",
     "capital": "Malé",
     "currency": "MVR",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "dv"
     ]
   },
@@ -1784,7 +1860,7 @@
     "continent": "AF",
     "capital": "Lilongwe",
     "currency": "MWK",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "en",
       "ny"
     ]
@@ -1796,7 +1872,7 @@
     "continent": "NA",
     "capital": "Mexico City",
     "currency": "MXN",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "es"
     ]
   },
@@ -1807,7 +1883,7 @@
     "continent": "AS",
     "capital": "Kuala Lumpur",
     "currency": "MYR",
-    "languages": []
+    "cities":["","","",""],"languages": []
   },
   "MZ": {
     "name": "Mozambique",
@@ -1816,7 +1892,7 @@
     "continent": "AF",
     "capital": "Maputo",
     "currency": "MZN",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "pt"
     ]
   },
@@ -1827,7 +1903,7 @@
     "continent": "AF",
     "capital": "Windhoek",
     "currency": "NAD,ZAR",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "en",
       "af"
     ]
@@ -1839,7 +1915,7 @@
     "continent": "OC",
     "capital": "Nouméa",
     "currency": "XPF",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "fr"
     ]
   },
@@ -1850,7 +1926,7 @@
     "continent": "AF",
     "capital": "Niamey",
     "currency": "XOF",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "fr"
     ]
   },
@@ -1861,7 +1937,7 @@
     "continent": "OC",
     "capital": "Kingston",
     "currency": "AUD",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "en"
     ]
   },
@@ -1872,7 +1948,7 @@
     "continent": "AF",
     "capital": "Abuja",
     "currency": "NGN",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "en"
     ]
   },
@@ -1883,7 +1959,7 @@
     "continent": "NA",
     "capital": "Managua",
     "currency": "NIO",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "es"
     ]
   },
@@ -1894,7 +1970,7 @@
     "continent": "EU",
     "capital": "Amsterdam",
     "currency": "EUR",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "nl"
     ]
   },
@@ -1905,7 +1981,7 @@
     "continent": "EU",
     "capital": "Oslo",
     "currency": "NOK",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "no",
       "nb",
       "nn"
@@ -1918,7 +1994,7 @@
     "continent": "AS",
     "capital": "Kathmandu",
     "currency": "NPR",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "ne"
     ]
   },
@@ -1929,7 +2005,7 @@
     "continent": "OC",
     "capital": "Yaren",
     "currency": "AUD",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "en",
       "na"
     ]
@@ -1941,7 +2017,7 @@
     "continent": "OC",
     "capital": "Alofi",
     "currency": "NZD",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "en"
     ]
   },
@@ -1952,7 +2028,7 @@
     "continent": "OC",
     "capital": "Wellington",
     "currency": "NZD",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "en",
       "mi"
     ]
@@ -1964,7 +2040,7 @@
     "continent": "AS",
     "capital": "Muscat",
     "currency": "OMR",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "ar"
     ]
   },
@@ -1975,7 +2051,7 @@
     "continent": "NA",
     "capital": "Panama City",
     "currency": "PAB,USD",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "es"
     ]
   },
@@ -1986,7 +2062,7 @@
     "continent": "SA",
     "capital": "Lima",
     "currency": "PEN",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "es"
     ]
   },
@@ -1997,7 +2073,7 @@
     "continent": "OC",
     "capital": "Papeetē",
     "currency": "XPF",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "fr"
     ]
   },
@@ -2008,7 +2084,7 @@
     "continent": "OC",
     "capital": "Port Moresby",
     "currency": "PGK",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "en"
     ]
   },
@@ -2019,7 +2095,7 @@
     "continent": "AS",
     "capital": "Manila",
     "currency": "PHP",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "en"
     ]
   },
@@ -2030,7 +2106,7 @@
     "continent": "AS",
     "capital": "Islamabad",
     "currency": "PKR",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "en",
       "ur"
     ]
@@ -2042,7 +2118,7 @@
     "continent": "EU",
     "capital": "Warsaw",
     "currency": "PLN",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "pl"
     ]
   },
@@ -2053,7 +2129,7 @@
     "continent": "NA",
     "capital": "Saint-Pierre",
     "currency": "EUR",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "fr"
     ]
   },
@@ -2064,7 +2140,7 @@
     "continent": "OC",
     "capital": "Adamstown",
     "currency": "NZD",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "en"
     ]
   },
@@ -2075,7 +2151,7 @@
     "continent": "NA",
     "capital": "San Juan",
     "currency": "USD",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "es",
       "en"
     ]
@@ -2087,7 +2163,7 @@
     "continent": "AS",
     "capital": "Ramallah",
     "currency": "ILS",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "ar"
     ]
   },
@@ -2098,7 +2174,7 @@
     "continent": "EU",
     "capital": "Lisbon",
     "currency": "EUR",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "pt"
     ]
   },
@@ -2109,7 +2185,7 @@
     "continent": "OC",
     "capital": "Ngerulmud",
     "currency": "USD",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "en"
     ]
   },
@@ -2120,7 +2196,7 @@
     "continent": "SA",
     "capital": "Asunción",
     "currency": "PYG",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "es",
       "gn"
     ]
@@ -2132,7 +2208,7 @@
     "continent": "AS",
     "capital": "Doha",
     "currency": "QAR",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "ar"
     ]
   },
@@ -2143,7 +2219,7 @@
     "continent": "AF",
     "capital": "Saint-Denis",
     "currency": "EUR",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "fr"
     ]
   },
@@ -2154,7 +2230,7 @@
     "continent": "EU",
     "capital": "Bucharest",
     "currency": "RON",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "ro"
     ]
   },
@@ -2165,7 +2241,7 @@
     "continent": "EU",
     "capital": "Belgrade",
     "currency": "RSD",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "sr"
     ]
   },
@@ -2176,7 +2252,7 @@
     "continent": "EU",
     "capital": "Moscow",
     "currency": "RUB",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "ru"
     ]
   },
@@ -2187,7 +2263,7 @@
     "continent": "AF",
     "capital": "Kigali",
     "currency": "RWF",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "rw",
       "en",
       "fr"
@@ -2200,7 +2276,7 @@
     "continent": "AS",
     "capital": "Riyadh",
     "currency": "SAR",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "ar"
     ]
   },
@@ -2211,7 +2287,7 @@
     "continent": "OC",
     "capital": "Honiara",
     "currency": "SBD",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "en"
     ]
   },
@@ -2222,7 +2298,7 @@
     "continent": "AF",
     "capital": "Victoria",
     "currency": "SCR",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "fr",
       "en"
     ]
@@ -2234,7 +2310,7 @@
     "continent": "AF",
     "capital": "Khartoum",
     "currency": "SDG",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "ar",
       "en"
     ]
@@ -2246,7 +2322,7 @@
     "continent": "EU",
     "capital": "Stockholm",
     "currency": "SEK",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "sv"
     ]
   },
@@ -2257,7 +2333,7 @@
     "continent": "AS",
     "capital": "Singapore",
     "currency": "SGD",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "en",
       "ms",
       "ta",
@@ -2271,7 +2347,7 @@
     "continent": "AF",
     "capital": "Jamestown",
     "currency": "SHP",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "en"
     ]
   },
@@ -2282,7 +2358,7 @@
     "continent": "EU",
     "capital": "Ljubljana",
     "currency": "EUR",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "sl"
     ]
   },
@@ -2293,7 +2369,7 @@
     "continent": "EU",
     "capital": "Longyearbyen",
     "currency": "NOK",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "no"
     ]
   },
@@ -2304,7 +2380,7 @@
     "continent": "EU",
     "capital": "Bratislava",
     "currency": "EUR",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "sk"
     ]
   },
@@ -2315,7 +2391,7 @@
     "continent": "AF",
     "capital": "Freetown",
     "currency": "SLL",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "en"
     ]
   },
@@ -2326,7 +2402,7 @@
     "continent": "EU",
     "capital": "City of San Marino",
     "currency": "EUR",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "it"
     ]
   },
@@ -2337,7 +2413,7 @@
     "continent": "AF",
     "capital": "Dakar",
     "currency": "XOF",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "fr"
     ]
   },
@@ -2348,7 +2424,7 @@
     "continent": "AF",
     "capital": "Mogadishu",
     "currency": "SOS",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "so",
       "ar"
     ]
@@ -2360,7 +2436,7 @@
     "continent": "SA",
     "capital": "Paramaribo",
     "currency": "SRD",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "nl"
     ]
   },
@@ -2371,7 +2447,7 @@
     "continent": "AF",
     "capital": "Juba",
     "currency": "SSP",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "en"
     ]
   },
@@ -2382,7 +2458,7 @@
     "continent": "AF",
     "capital": "São Tomé",
     "currency": "STD",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "pt"
     ]
   },
@@ -2393,7 +2469,7 @@
     "continent": "NA",
     "capital": "San Salvador",
     "currency": "SVC,USD",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "es"
     ]
   },
@@ -2404,7 +2480,7 @@
     "continent": "NA",
     "capital": "Philipsburg",
     "currency": "ANG",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "nl",
       "en"
     ]
@@ -2416,7 +2492,7 @@
     "continent": "AS",
     "capital": "Damascus",
     "currency": "SYP",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "ar"
     ]
   },
@@ -2427,7 +2503,7 @@
     "continent": "AF",
     "capital": "Lobamba",
     "currency": "SZL",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "en",
       "ss"
     ]
@@ -2439,7 +2515,7 @@
     "continent": "NA",
     "capital": "Cockburn Town",
     "currency": "USD",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "en"
     ]
   },
@@ -2450,7 +2526,7 @@
     "continent": "AF",
     "capital": "N'Djamena",
     "currency": "XAF",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "fr",
       "ar"
     ]
@@ -2462,7 +2538,7 @@
     "continent": "AN",
     "capital": "Port-aux-Français",
     "currency": "EUR",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "fr"
     ]
   },
@@ -2473,7 +2549,7 @@
     "continent": "AF",
     "capital": "Lomé",
     "currency": "XOF",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "fr"
     ]
   },
@@ -2484,7 +2560,7 @@
     "continent": "AS",
     "capital": "Bangkok",
     "currency": "THB",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "th"
     ]
   },
@@ -2495,7 +2571,7 @@
     "continent": "AS",
     "capital": "Dushanbe",
     "currency": "TJS",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "tg",
       "ru"
     ]
@@ -2507,7 +2583,7 @@
     "continent": "OC",
     "capital": "Fakaofo",
     "currency": "NZD",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "en"
     ]
   },
@@ -2518,7 +2594,7 @@
     "continent": "OC",
     "capital": "Dili",
     "currency": "USD",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "pt"
     ]
   },
@@ -2529,7 +2605,7 @@
     "continent": "AS",
     "capital": "Ashgabat",
     "currency": "TMT",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "tk",
       "ru"
     ]
@@ -2541,7 +2617,7 @@
     "continent": "AF",
     "capital": "Tunis",
     "currency": "TND",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "ar"
     ]
   },
@@ -2552,7 +2628,7 @@
     "continent": "OC",
     "capital": "Nuku'alofa",
     "currency": "TOP",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "en",
       "to"
     ]
@@ -2564,7 +2640,7 @@
     "continent": "AS",
     "capital": "Ankara",
     "currency": "TRY",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "tr"
     ]
   },
@@ -2575,7 +2651,7 @@
     "continent": "NA",
     "capital": "Port of Spain",
     "currency": "TTD",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "en"
     ]
   },
@@ -2586,7 +2662,7 @@
     "continent": "OC",
     "capital": "Funafuti",
     "currency": "AUD",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "en"
     ]
   },
@@ -2597,7 +2673,7 @@
     "continent": "AS",
     "capital": "Taipei",
     "currency": "TWD",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "zh"
     ]
   },
@@ -2608,7 +2684,7 @@
     "continent": "AF",
     "capital": "Dodoma",
     "currency": "TZS",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "sw",
       "en"
     ]
@@ -2620,7 +2696,7 @@
     "continent": "EU",
     "capital": "Kyiv",
     "currency": "UAH",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "uk"
     ]
   },
@@ -2631,7 +2707,7 @@
     "continent": "AF",
     "capital": "Kampala",
     "currency": "UGX",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "en",
       "sw"
     ]
@@ -2643,7 +2719,7 @@
     "continent": "OC",
     "capital": "",
     "currency": "USD",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "en"
     ]
   },
@@ -2654,7 +2730,7 @@
     "continent": "NA",
     "capital": "Washington D.C.",
     "currency": "USD,USN,USS",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "en"
     ]
   },
@@ -2665,7 +2741,7 @@
     "continent": "SA",
     "capital": "Montevideo",
     "currency": "UYI,UYU",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "es"
     ]
   },
@@ -2676,7 +2752,7 @@
     "continent": "AS",
     "capital": "Tashkent",
     "currency": "UZS",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "uz",
       "ru"
     ]
@@ -2688,7 +2764,7 @@
     "continent": "EU",
     "capital": "Vatican City",
     "currency": "EUR",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "it",
       "la"
     ]
@@ -2700,7 +2776,7 @@
     "continent": "NA",
     "capital": "Kingstown",
     "currency": "XCD",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "en"
     ]
   },
@@ -2711,7 +2787,7 @@
     "continent": "SA",
     "capital": "Caracas",
     "currency": "VEF",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "es"
     ]
   },
@@ -2722,7 +2798,7 @@
     "continent": "NA",
     "capital": "Road Town",
     "currency": "USD",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "en"
     ]
   },
@@ -2733,7 +2809,7 @@
     "continent": "NA",
     "capital": "Charlotte Amalie",
     "currency": "USD",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "en"
     ]
   },
@@ -2744,7 +2820,7 @@
     "continent": "AS",
     "capital": "Hanoi",
     "currency": "VND",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "vi"
     ]
   },
@@ -2755,7 +2831,7 @@
     "continent": "OC",
     "capital": "Port Vila",
     "currency": "VUV",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "bi",
       "en",
       "fr"
@@ -2768,7 +2844,7 @@
     "continent": "OC",
     "capital": "Mata-Utu",
     "currency": "XPF",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "fr"
     ]
   },
@@ -2779,7 +2855,7 @@
     "continent": "OC",
     "capital": "Apia",
     "currency": "WST",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "sm",
       "en"
     ]
@@ -2791,7 +2867,7 @@
     "continent": "EU",
     "capital": "Pristina",
     "currency": "EUR",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "sq",
       "sr"
     ]
@@ -2803,7 +2879,7 @@
     "continent": "AS",
     "capital": "Sana'a",
     "currency": "YER",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "ar"
     ]
   },
@@ -2814,7 +2890,7 @@
     "continent": "AF",
     "capital": "Mamoudzou",
     "currency": "EUR",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "fr"
     ]
   },
@@ -2825,7 +2901,7 @@
     "continent": "AF",
     "capital": "Pretoria",
     "currency": "ZAR",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "af",
       "en",
       "nr",
@@ -2845,7 +2921,7 @@
     "continent": "AF",
     "capital": "Lusaka",
     "currency": "ZMK",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "en"
     ]
   },
@@ -2856,7 +2932,7 @@
     "continent": "AF",
     "capital": "Harare",
     "currency": "ZWL",
-    "languages": [
+    "cities":["","","",""],"languages": [
       "en",
       "sn",
       "nd"
