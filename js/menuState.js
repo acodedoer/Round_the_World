@@ -3,8 +3,6 @@ var menuState ={
 },
 
     create: function() {
-        game.global.score=0;
-    
         this.left = game.add.sprite(200, 500, 'leftArrow');
         this.left.anchor.set(0.5);
         this.left.inputEnabled = true;

@@ -1,5 +1,7 @@
 var flagState ={    
     create: function() {    
+        game.global.score=0;
+        
         this.txtScore = game.add.bitmapText(this.world.centerX, 45, 'myfont', "score: "+game.global.score, 60);
         this.txtScore.anchor.setTo(0.5,0.5);
         
@@ -11,7 +13,7 @@ var flagState ={
         this.livesImage.frame = 2;
         
         this.ansPost = [{text:'', choice:''},{text:'', choice:''},{text:'', choice:''},{text:'', choice:''}];
-        this.countriesAF = game.global.fullArray[game.global.continentIndex];
+        this.countriesAF = game.global.fullArray[game.global.continentIndex].slice(0);
         this.fullOptions=[];
 
         this.getInfo;
@@ -22,8 +24,8 @@ var flagState ={
         //get states data from json
         getInfo = JSON.parse(game.cache.getText('infoAF'));   
         
-        this.questionLine1 = game.add.bitmapText(this.world.centerX, 300, 'myfont', "The flag of", 50);
-        this.questionLine2 = game.add.bitmapText(this.world.centerX, 380, 'myfont', "Democratic Republic of the Congo is ?", 50);
+        this.questionLine1 = game.add.bitmapText(this.world.centerX, 300, 'myfont', "The flag of", 80);
+        this.questionLine2 = game.add.bitmapText(this.world.centerX, 400, 'myfont', "Democratic Republic of the Congo is ?", 80);
         this.questionLine1.anchor.set(0.5);
         this.questionLine2.anchor.set(0.5);
         

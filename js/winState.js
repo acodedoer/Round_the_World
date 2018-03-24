@@ -2,11 +2,13 @@ var winState ={
     create: function() {       
         this.continents = ['Africa', 'America', 'Asia', 'Australia', 'Europe'];
         this.modes = ['Capitals', 'Flags', 'Population'];
+        this.states =['capitalState', 'flagState', 'populationState'];
         
         this.gameOverText1 = game.add.bitmapText(game.world.centerX, 300, 'myfont','You did it!', 120);
         this.gameOverText1.anchor.set(0.5);
         this.gameOverText2 = game.add.bitmapText(game.world.centerX, 500, 'myfont',"You've mastered the " +this.modes[game.global.modeIndex]+" of \n "+this.continents[game.global.continentIndex], 70);
         this.gameOverText2.anchor.set(0.5);
+        this.gameOverText2.align = 'center'
 
         
         this.btRestart = game.add.sprite(1000, 800, game.global.modeButton[game.global.modeIndex]);
@@ -25,7 +27,7 @@ var winState ={
     },
     
     restart: function(){
-        
+        this.state.start(this.states[game.global.modeIndex]);
     },
     
     home: function(){

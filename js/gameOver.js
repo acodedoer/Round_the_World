@@ -5,6 +5,7 @@ var gameOver ={
     create: function() {       
         this.continents = ['Africa', 'America', 'Asia', 'Australia', 'Europe'];
         this.modes = ['Capitals', 'Flags', 'Population'];
+        this.states =['capitalState', 'flagState', 'populationState'];
         
         this.gameOverText1 = game.add.bitmapText(game.world.centerX, 300, 'myfont','Game Over', 120);
         this.gameOverText1.anchor.set(0.5);
@@ -31,7 +32,7 @@ var gameOver ={
     },
     
     restart: function(){
-        
+        this.state.start(this.states[game.global.modeIndex]);
     },
     
     home: function(){

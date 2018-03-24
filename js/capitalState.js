@@ -1,11 +1,9 @@
 var capitalState ={    
     create: function() {
-        game.stage.backgroundColor = "#CDEDFD";
-        this.score = 0;
+        game.global.score=0;
     
-        
         this.ansPost = [{text:'', choice:''},{text:'', choice:''},{text:'', choice:''},{text:'', choice:''}];
-        this.countriesAF = game.global.fullArray[game.global.continentIndex];
+        this.countriesAF = game.global.fullArray[game.global.continentIndex].slice(0);
         console.log(game.global.continentIndex);
         console.log(game.global.fullArray[game.global.continentIndex]);
 
@@ -17,8 +15,8 @@ var capitalState ={
         //get states data from json
         getInfo = JSON.parse(game.cache.getText('infoAF'));   
         
-        this.questionLine1 = game.add.bitmapText(this.world.centerX, 400, 'myfont', "The capital of", 50);
-        this.questionLine2 = game.add.bitmapText(this.world.centerX, 480, 'myfont', "Democratic Republic of the Congo is ?", 50);
+        this.questionLine1 = game.add.bitmapText(this.world.centerX, 300, 'myfont', "The capital of", 80);
+        this.questionLine2 = game.add.bitmapText(this.world.centerX, 400, 'myfont', "Democratic Republic of the Congo is ?", 80);
         this.questionLine1.anchor.set(0.5);
         this.questionLine2.anchor.set(0.5);
         
@@ -47,6 +45,7 @@ var capitalState ={
         this.ansPost[i].text = game.add.bitmapText(optXPos, optYPos, 'myfont', '', 45);
         this.ansPost[i].text.maxWidth = 300;
         this.ansPost[i].text.anchor.setTo(0.5);
+         this.ansPost[i].text.align = 'center'
         this.ansPost[i].inputEnabled = true;
         this.ansPost[i].events.onInputDown.add(this.checkChoice, this);
         optXPos+=400;
