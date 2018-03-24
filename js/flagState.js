@@ -53,9 +53,6 @@ var flagState ={
         game.state.start('menuState');
     },
     
-    update: function () {
-
-    },
 
     checkChoice: function(choice){
         choice.alpha = 0.5;

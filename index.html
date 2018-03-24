@@ -5,7 +5,10 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
 		<title>Round the World</title>
-		<script type="text/javascript" src="js/phaser.js"></script>		
+        
+        <!-- include phaser file-->
+		<script type="text/javascript" src="js/phaser.js"></script>
+        
 		<style>
 		  body {
 		    padding: 0px;
@@ -16,16 +19,28 @@
 	</head>
 
 	<body>  
-		<!-- include the main game file -->
-        <!--<script src="js/menuState.js"></script>
-		<script src="js/PreloadState.js"></script>-->
+        <!-- page that shows up after successfully completing a mode-->
 		<script src="js/winState.js"></script>
+        
+        <!-- choose the flag mode-->
         <script src="js/flagState.js"></script>
+        
+        <!-- page that shows up after choosing 3 wrong options a mode-->
         <script src="js/gameOver.js"></script>
+        
+        <!-- name the capital mode-->
 		<script src="js/capitalState.js"></script>
+        
+        <!-- the games main menu-->
         <script src="js/menuState.js"></script>
+        
+        <!-- preload all assests required by the game-->
         <script src="js/preloadState.js"></script>
+        
+        <!-- creates a new game variable and starts preload-->
 		<script src="js/bootState.js"></script>
+        
+        <!-- main game file-->
 		<script src="js/main.js"></script>
 	</body>
 </html>

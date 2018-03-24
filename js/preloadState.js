@@ -1,4 +1,5 @@
-var preloadState ={    
+var preloadState ={   
+    //load all flgas, bitmap text, buttons
     preload: function() {
         game.load.image('AF', 'assets/flags/AF.png');
         game.load.image('AX', 'assets/flags/AX.png');

@@ -80,9 +80,3 @@ var menuState ={
         game.global.modeArray = game.global.fullArray[game.global.modeIndex];
     }
 };
-//var game = new Phaser.Game(1600, 1200, Phaser.AUTO);
-
-    
-
-//game.state.add('mainMenu', mainMenu);
-//game.state.start('mainMenu');
