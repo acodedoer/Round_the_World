@@ -1,0 +1,22 @@
+{
+  "name": "round_the_world",
+  "version": "1.0.0",
+  "description": "a game for learning facts and information about countries ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msz4/Round_the_World.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "MSZubair",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msz4/Round_the_World/issues"
+  },
+  "homepage": "https://github.com/msz4/Round_the_World#readme"
+}
