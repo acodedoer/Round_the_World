@@ -1,7 +1,7 @@
 var capitalState ={    
     create: function() {
         game.global.score=0;
-    
+        this.usedCapitals =[];
         this.ansPost = [{text:'', choice:''},{text:'', choice:''},{text:'', choice:''},{text:'', choice:''}];
         this.countriesAF = game.global.fullArray[game.global.continentIndex].slice(0);
         console.log(game.global.continentIndex);
@@ -105,15 +105,25 @@ var capitalState ={
     },
     nextQuestion: function(){
         this.reset();
+        Phaser.ArrayUtils.shuffle(this.countriesAF);
         var queCountry = getInfo[this.countriesAF[this.countriesAF.length-1]];
         this.questionLine2.setText(queCountry.name + " is?");
         this.answer = queCountry.capital;
-        Phaser.ArrayUtils.shuffle(queCountry.cities);
+        this.usedCapitals.push(this.answer);
         this.options.push( this.answer);
-        for (var i=0;i<3;i++){
-            this.options.push(queCountry.cities[i]);
+        
+        if(this.countriesAF.length <=3){
+            Phaser.ArrayUtils.shuffle(this.usedCapitals);
+            for (var i=2;i<5;i++){
+            this.options.push(this.usedCapitals[i]);
+            }}
+        else{
+            for (var i=2;i<5;i++){
+            this.options.push(getInfo[this.countriesAF[this.countriesAF.length-i]].capital);
         }
-        Phaser.ArrayUtils.shuffle(this.options);
+        
+        }
+       // Phaser.ArrayUtils.shuffle(this.options);
 
         for (var i =0; i<4; i++){
             this.ansPost[i].text.setText(this.options[i]);
