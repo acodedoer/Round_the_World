@@ -123,7 +123,7 @@ var capitalState ={
         }
         
         }
-       // Phaser.ArrayUtils.shuffle(this.options);
+       Phaser.ArrayUtils.shuffle(this.options);
 
         for (var i =0; i<4; i++){
             this.ansPost[i].text.setText(this.options[i]);
