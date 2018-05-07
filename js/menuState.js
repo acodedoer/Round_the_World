@@ -3,46 +3,61 @@ var menuState ={
 },
 
     create: function() {
-        this.left = game.add.sprite(200, 500, 'leftArrow');
+        this.nextSound = game.add.audio('next');
+        this.backSound = game.add.audio('back');
+        this.clickSound = game.add.audio('click');
+        
+        this.left = game.add.sprite(200, 300, 'leftArrow');
         this.left.anchor.set(0.5);
         this.left.inputEnabled = true;
         this.left.events.onInputDown.add(this.onLArrowClick, this);
         
-        this.right = game.add.sprite(1400, 500, 'rightArrow');
+        this.right = game.add.sprite(1400, 300, 'rightArrow');
         this.right.anchor.set(0.5);
         this.right.inputEnabled = true;
         this.right.events.onInputDown.add(this.onRArrowClick, this);
         
-        var btCapital = game.add.sprite(400, 800, 'btCapital');
+        var btCapital = game.add.sprite(500, 600, 'btFlag');
         btCapital.anchor.set(0.5);
         btCapital.inputEnabled = true;
         btCapital.events.onInputDown.add(this.startCapitalMode, this);
         
-        var btFlag = game.add.sprite(800, 800, 'btFlag');
+        var btFlag = game.add.sprite(  1100, 600, 'btFlag');
         btFlag.anchor.set(0.5);
         btFlag.inputEnabled = true;
         btFlag.events.onInputDown.add(this.startFlagMode, this);
         
-        var btPopulation = game.add.sprite(1200, 800, 'btPopulation', 50);
+        var btPopulation = game.add.sprite(500, 800, 'btFlag', 50);
         btPopulation.anchor.set(0.5);
+        btPopulation.inputEnabled = true;
         btPopulation.events.onInputDown.add(this.startPopulationMode, this);
         
-        var btCapitalText = game.add.bitmapText(400, 800, 'myfont','Capitals', 50);
+        var btCurrency = game.add.sprite(1100, 800, 'btFlag', 50);
+        btCurrency.anchor.set(0.5);
+        btCurrency.inputEnabled = true;
+        btCurrency.events.onInputDown.add(this.startCurrencyMode, this);
+        
+        
+        var btCapitalText = game.add.bitmapText(500, 600, 'myfont','Capitals', 50);
         btCapitalText.anchor.set(0.5);
         
-        var btFlagText = game.add.bitmapText(800, 800,'myfont', 'Flags', 50);
+        var btFlagText = game.add.bitmapText(1100, 600,'myfont', 'Flags', 50);
         btFlagText.anchor.set(0.5);
         
-        var btPopulationText = game.add.bitmapText(1200, 800, 'myfont','Population', 50);
+        var btPopulationText = game.add.bitmapText(500, 800, 'myfont','Population', 50);
         btPopulationText.anchor.set(0.5);
         
+        var btCurrencyText = game.add.bitmapText(1100, 800, 'myfont','Currency', 50);
+        btCurrencyText.anchor.set(0.5);
+        
         this.Continents =['Africa','Americas', 'Asia', 'Australia','Europe'];
-        this.txtContinent = game.add.bitmapText(game.world.centerX, 500, 'myfont',this.Continents[game.global.continentIndex], 100);
+        this.txtContinent = game.add.bitmapText(game.world.centerX, 300, 'myfont',this.Continents[game.global.continentIndex], 100);
         this.txtContinent.anchor.set(0.5);
 
     },
     
      onLArrowClick: function(){
+        this.backSound.play();
         if(game.global.continentIndex <=0 ){
             game.global.continentIndex =5;
         }
@@ -51,6 +66,7 @@ var menuState ={
     },
     
     onRArrowClick: function(){
+        this.nextSound.play();
         if(game.global.continentIndex >=4 ){
             game.global.continentIndex =-1;
         }
@@ -59,6 +75,7 @@ var menuState ={
     },
     
     startCapitalMode: function(){
+        this.clickSound.play();
          this.alpha =0.5;
         //game.time.events.add(Phaser.Timer.SECOND * 0.2, this.correct, this);
         this.state.start('capitalState');
@@ -66,14 +83,25 @@ var menuState ={
     },
     
     startFlagMode: function(){
+        this.clickSound.play();
         //this.updateModeArrays();
         this.state.start('flagState');
         game.global.modeIndex = 1;
     },
         
     startPopulationMode: function(){
-        this.updateModeArrays();
+        console.log('outside');
+        this.clickSound.play();
+       // this.updateModeArrays();
+        this.state.start('populationState');
         game.global.modeIndex = 2;
+    },
+     startCurrencyMode: function(){
+        console.log('outside');
+        this.clickSound.play();
+       // this.updateModeArrays();
+        this.state.start('currencyState');
+        game.global.modeIndex = 3;
     },
     
     updateModeArrays: function(){

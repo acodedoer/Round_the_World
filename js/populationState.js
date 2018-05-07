@@ -1,7 +1,8 @@
-var capitalState ={    
+var populationState ={    
     create: function() {
+        console.log('inside');
         game.global.score=0;
-        this.usedCapitals =[];
+        this.usedPopulation =[];
         this.ansPost = [{text:'', choice:''},{text:'', choice:''},{text:'', choice:''},{text:'', choice:''}];
         this.countriesAF = game.global.fullArray[game.global.continentIndex].slice(0);
         console.log(game.global.continentIndex);
@@ -11,7 +12,7 @@ var capitalState ={
 
         this.getInfo;
         this.answer;
-        this.options=[];
+        this.options=[];            
         
         this.correctSound = game.add.audio('correct');
         this.correctSound2 = game.add.audio('correct2');
@@ -21,7 +22,7 @@ var capitalState ={
         //get states data from json
         getInfo = JSON.parse(game.cache.getText('infoAF'));   
         
-        this.questionLine1 = game.add.bitmapText(this.world.centerX, 450, 'myfont', "The capital of", 80);
+        this.questionLine1 = game.add.bitmapText(this.world.centerX, 450, 'myfont', "The population of", 80);
         this.questionLine2 = game.add.bitmapText(this.world.centerX, 550, 'myfont', "Democratic Republic of the Congo is ?", 80);
         this.questionLine1.anchor.set(0.5);
         this.questionLine2.anchor.set(0.5);
@@ -129,18 +130,18 @@ var capitalState ={
         Phaser.ArrayUtils.shuffle(this.countriesAF);
         var queCountry = getInfo[this.countriesAF[this.countriesAF.length-1]];
         this.questionLine2.setText(queCountry.name + " is?");
-        this.answer = queCountry.capital;
-        this.usedCapitals.push(this.answer);
+        this.answer = queCountry.population;
+        this.usedPopulation.push(this.answer);
         this.options.push( this.answer);
         
         if(this.countriesAF.length <=3){
-            Phaser.ArrayUtils.shuffle(this.usedCapitals);
+            Phaser.ArrayUtils.shuffle(this.usedPopulation);
             for (var i=2;i<5;i++){
-            this.options.push(this.usedCapitals[i]);
+            this.options.push(this.usedPopulation[i]);
             }}
         else{
             for (var i=2;i<5;i++){
-            this.options.push(getInfo[this.countriesAF[this.countriesAF.length-i]].capital);
+            this.options.push(getInfo[this.countriesAF[this.countriesAF.length-i]].population);
         }
         
         }

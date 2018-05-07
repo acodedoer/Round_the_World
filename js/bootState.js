@@ -1,5 +1,5 @@
 var BootState = {
-
+    // set background colour for the game, center game, and scale for all devices
     init: function() {
       this.game.stage.backgroundColor = "#CDEDFD";
       this.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;

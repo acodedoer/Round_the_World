@@ -1,9 +1,10 @@
-var capitalState ={    
+var currencyState ={    
     create: function() {
         game.global.score=0;
         this.usedCapitals =[];
         this.ansPost = [{text:'', choice:''},{text:'', choice:''},{text:'', choice:''},{text:'', choice:''}];
         this.countriesAF = game.global.fullArray[game.global.continentIndex].slice(0);
+        this.currencyOptions = game.global.fullArray[game.global.continentIndex].slice(0);
         console.log(game.global.continentIndex);
         console.log(game.global.fullArray[game.global.continentIndex]);
         
@@ -21,10 +22,8 @@ var capitalState ={
         //get states data from json
         getInfo = JSON.parse(game.cache.getText('infoAF'));   
         
-        this.questionLine1 = game.add.bitmapText(this.world.centerX, 450, 'myfont', "The capital of", 80);
-        this.questionLine2 = game.add.bitmapText(this.world.centerX, 550, 'myfont', "Democratic Republic of the Congo is ?", 80);
+        this.questionLine1 = game.add.bitmapText(this.world.centerX, 450, 'myfont', "What is Democratic Republic of the Congo's", 80);
         this.questionLine1.anchor.set(0.5);
-        this.questionLine2.anchor.set(0.5);
 
         
         this.stats= {textS:"", lives:4};
@@ -128,22 +127,25 @@ var capitalState ={
         this.reset();
         Phaser.ArrayUtils.shuffle(this.countriesAF);
         var queCountry = getInfo[this.countriesAF[this.countriesAF.length-1]];
-        this.questionLine2.setText(queCountry.name + " is?");
-        this.answer = queCountry.capital;
+        this.questionLine1.setText("What is "+queCountry.name + "'s main currency?");
+        this.questionLine1.maxWidth = 1500;
+        this.answer = queCountry.currency;
         this.usedCapitals.push(this.answer);
         this.options.push( this.answer);
         
-        if(this.countriesAF.length <=3){
-            Phaser.ArrayUtils.shuffle(this.usedCapitals);
-            for (var i=2;i<5;i++){
-            this.options.push(this.usedCapitals[i]);
-            }}
-        else{
-            for (var i=2;i<5;i++){
-            this.options.push(getInfo[this.countriesAF[this.countriesAF.length-i]].capital);
-        }
+        Phaser.ArrayUtils.shuffle(this.currencyOptions);
+        this.count=0;
+        for (var i=1;i<this.currencyOptions.length ;i++){
+            this.checkoption = getInfo[this.currencyOptions[i]].currency;
+            if(this.checkoption == this.answer){}
+                else{this.options.push(this.checkoption);
+                    this.count +=1;}
+            if(this.count>=3){
+                break;
+            }
+                
+            }
         
-        }
        Phaser.ArrayUtils.shuffle(this.options);
 
         for (var i =0; i<4; i++){

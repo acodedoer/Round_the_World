@@ -250,6 +250,9 @@ var preloadState ={
         game.load.image('YE', 'assets/flags/YE.png');
         game.load.image('ZM', 'assets/flags/ZM.png');
         game.load.image('ZW', 'assets/flags/ZW.png');
+        
+        game.load.image('AF_map', 'assets/maps/AF_map.png');
+        
         game.load.image('leftArrow', 'assets/images/leftArrow.png');
         game.load.image('rightArrow', 'assets/images/rightArrow.png');
         this.game.load.image('btCapital', 'assets/images/bt1.png');
@@ -258,11 +261,28 @@ var preloadState ={
         this.game.load.image('btBack', 'assets/images/back.png');
         this.game.load.image('btHome', 'assets/images/options.png'); 
         this.game.load.bitmapFont('myfont', 'assets/fonts/fontshadow.png','assets/fonts/fontshadow.fnt');
-        this.game.load.spritesheet('lives', 'assets/images/lives.png', 274, 80, 3);
+        this.game.load.spritesheet('lives', 'assets/images/lives.png', 324, 68, 5);
         this.game.load.text('infoAF', 'js/countries.json ');
+        
+        this.game.load.audio('correct', 'assets/audio/correct.ogg');
+        this.game.load.audio('wrong', 'assets/audio/wrong.ogg');
+        this.game.load.audio('next', 'assets/audio/next.ogg');
+        this.game.load.audio('back', 'assets/audio/back.ogg');
+        this.game.load.audio('correct2', 'assets/audio/correct2.ogg');
+        this.game.load.audio('click', 'assets/audio/click.ogg');
     },
 
     create: function() {
+        for (var i= 0; i<5; i++){
+            for (var j= 0; j<5; j++){
+                console.log(''+i+''+j);
+                console.log(localStorage.getItem(''+i+''+j));
+            if(localStorage.getItem(''+i+''+j) == null){}
+            else{
+                game.global.highscore[i][j] = localStorage.getItem(''+i+''+j);
+            }}
         this.state.start('menuState');
+            
+        
   }
-}
+}}
