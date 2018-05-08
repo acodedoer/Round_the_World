@@ -129,6 +129,7 @@ var currencyState ={
         var queCountry = getInfo[this.countriesAF[this.countriesAF.length-1]];
         this.questionLine1.setText("What is "+queCountry.name + "'s main currency?");
         this.questionLine1.maxWidth = 1500;
+        this.questionLine1.align = 'center';
         this.answer = queCountry.currency;
         this.usedCapitals.push(this.answer);
         this.options.push( this.answer);
