@@ -255,7 +255,8 @@ var preloadState ={
         
         game.load.image('leftArrow', 'assets/images/leftArrow.png');
         game.load.image('rightArrow', 'assets/images/rightArrow.png');
-        this.game.load.image('btCapital', 'assets/images/bt1.png');
+        this.game.load.spritesheet('option', 'assets/images/options.png', 404,304,3);
+        this.game.load.image('btCapital', 'assets/images/answer.png');
         this.game.load.image('btFlag', 'assets/images/bt2.png');
         this.game.load.image('btPopulation', 'assets/images/bt3.png');
         this.game.load.image('btBack', 'assets/images/back.png');

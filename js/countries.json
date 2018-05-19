@@ -6,7 +6,7 @@
         "continent": "EU",
         "capital": "Andorra la Vella",
         "currency": "Euro (EUR)",
-        "population": "77,281",
+        "population": "77,000",
         "cities": ["La Massana", "Sant Julià de Lòria", "Ordino", "Encamp"],
         "languages": [
 			"ca"
@@ -19,7 +19,7 @@
         "continent": "AS",
         "capital": "Abu Dhabi",
         "currency": "Dirham (AED)",
-        "population": "9,269,612",
+        "population": "9,269,000",
         "cities": ["Dubai", "Sharjah", "Ajman", "Ras Al Khaimah"],
         "languages": [
 			"ar"
@@ -32,7 +32,7 @@
         "continent": "AS",
         "capital": "Kabul",
         "currency": "Afghani (AFN)",
-        "population": "34,656,032",
+        "population": "34,656,000",
         "cities": ["Kandahar", "Herat", "Balkh", "Nangarhar"],
         "languages": [
 			"ps",
@@ -47,7 +47,7 @@
         "continent": "NA",
         "capital": "Saint John's",
         "currency": "Dollar (XCD)",
-        "population": "100,963",
+        "population": "100,000",
         "cities": ["All Saints", "Liberta", "Potter's Village", "Bolans"],
         "languages": [
 			"en"
@@ -73,7 +73,7 @@
         "continent": "EU",
         "capital": "Tirana",
         "currency": "Lek (ALL)",
-        "population": "2,876,101",
+        "population": "2,876,000",
         "cities": ["Durrës", "Vlorë", "Elbasan", "Shkodër"],
         "languages": [
 			"sq"
@@ -86,7 +86,7 @@
         "continent": "AS",
         "capital": "Yerevan",
         "currency": "Dram (AMD)",
-        "population": "2,924,816",
+        "population": "2,924,000",
         "cities": ["Abovyan", "Abovyan", "Yeghvard", "Nor Hachn"],
         "languages": [
 			"hy",
@@ -100,7 +100,7 @@
         "continent": "AF",
         "capital": "Luanda",
         "currency": "Kwanza (AOA)",
-        "population": "28,813,463",
+        "population": "28,813,000",
         "cities": ["Huambo", "Benguela", "N'dalatando"],
         "languages": [
 			"pt"
@@ -124,7 +124,7 @@
         "continent": "SA",
         "capital": "Buenos Aires",
         "currency": "Peso (ARS)",
-        "population": "43,847,430",
+        "population": "43,847,000",
         "cities": ["Córdoba", "Rosario", "Mendoza", "La Plata"],
         "languages": [
 			"es",
@@ -138,7 +138,7 @@
         "continent": "OC",
         "capital": "Pago Pago",
         "currency": "Dollar (USD)",
-        "population": "55,599",
+        "population": "55,000",
         "cities": ["Tāfuna", "Leone", "Faleniu", "Fagatogo"],
         "languages": [
 			"en",
@@ -152,7 +152,7 @@
         "continent": "EU",
         "capital": "Vienna",
         "currency": "Euro (EUR)",
-        "population": "8,731,471",
+        "population": "8,731,000",
         "cities": ["Graz", "Linz", "Salzburg", "Innsbruck"],
         "languages": [
 			"de"
@@ -165,7 +165,7 @@
         "continent": "OC",
         "capital": "Canberra",
         "currency": "Dollar (AUD)",
-        "population": "24,210,809",
+        "population": "24,210,000",
         "cities": ["Sydney", "Melbourne", "Brisbane", "Perth"],
         "languages": [
 			"en"
@@ -178,7 +178,7 @@
         "continent": "NA",
         "capital": "Oranjestad",
         "currency": "Guilder (AWG)",
-        "population": "104,822",
+        "population": "104,000",
         "cities": ["", "", "", ""],
         "languages": [
 			"nl",
@@ -205,7 +205,7 @@
         "continent": "AS",
         "capital": "Baku",
         "currency": "New Manat (AZN)",
-        "population": "9,757,812",
+        "population": "9,757,000",
         "cities": ["Ganja", "Sumqayit", "Lankaran", "Mingachevir"],
         "languages": [
 			"az"
@@ -218,7 +218,7 @@
         "continent": "EU",
         "capital": "Sarajevo",
         "currency": "Marka (BAM)",
-        "population": "3,516,816",
+        "population": "3,516,000",
         "cities": ["Banja Luka", "Zenica", "Tuzla", "Mostar"],
         "languages": [
 			"bs",
@@ -233,7 +233,7 @@
         "continent": "NA",
         "capital": "Bridgetown",
         "currency": "Dollar (BBD)",
-        "population": "284,996",
+        "population": "284,000",
         "cities": ["Speightstown", "Oistins", "Bathsheba", "Holetown"],
         "languages": [
 			"en"
@@ -246,7 +246,7 @@
         "continent": "AS",
         "capital": "Dhaka",
         "currency": "Taka (BDT)",
-        "population": "162,951,560",
+        "population": "162,951,000",
         "cities": ["Chittagong", "Khulna", "Rajshahi", "Comilla"],
         "languages": [
 			"bn"
@@ -259,7 +259,7 @@
         "continent": "EU",
         "capital": "Brussels",
         "currency": "Euro (EUR)",
-        "population": "11,338,476",
+        "population": "11,338,000",
         "cities": ["Antwerp", "Ghent", "Charleroi", "Bruges"],
         "languages": [
 			"nl",
@@ -274,7 +274,7 @@
         "continent": "AF",
         "capital": "Ouagadougou",
         "currency": "CFA Franc (XOF)",
-        "population": "18,646,433",
+        "population": "18,646,000",
         "cities": ["Bobo-Dioulasso", "Koudougou", "Ouahigouya"],
         "languages": [
 			"fr",
@@ -288,7 +288,7 @@
         "continent": "EU",
         "capital": "Sofia",
         "currency": "Lev (BGN)",
-        "population": "7,127,822",
+        "population": "7,127,000",
         "cities": ["Plovdiv", "Varna", "Burgas", "Rousse"],
         "languages": [
 			"bg"
@@ -301,7 +301,7 @@
         "continent": "AS",
         "capital": "Manama",
         "currency": "Dinar (BHD)",
-        "population": "1,425,171",
+        "population": "1,425,000",
         "cities": ["Al Muharraq", "Sitrah", "Al Hadd", "Ar Rifa"],
         "languages": [
 			"ar"
@@ -314,7 +314,7 @@
         "continent": "AF",
         "capital": "Bujumbura",
         "currency": "Franc (BIF)",
-        "population": "10,524,117",
+        "population": "10,524,000",
         "cities": ["Muyinga", "Ruyigi", "Gitega", "Ngozi"],
         "languages": [
 			"fr",
@@ -328,7 +328,7 @@
         "continent": "AF",
         "capital": "Porto-Novo",
         "currency": "CFA Franc (XOF)",
-        "population": "10,872,298",
+        "population": "10,872,000",
         "cities": ["Cotonou", "Djougou", "Parakou", "Bohicon"],
         "languages": [
 			"fr"
@@ -341,7 +341,7 @@
         "continent": "NA",
         "capital": "Gustavia",
         "currency": "Euro (EUR)",
-        "population": "7,184",
+        "population": "7,000",
         "cities": ["", "", "", ""],
         "languages": [
 			"fr"
@@ -354,7 +354,7 @@
         "continent": "NA",
         "capital": "Hamilton",
         "currency": "Dollar (BMD)",
-        "population": "65,376",
+        "population": "65,000",
         "cities": ["Saint George", "Stovel Bay", "Cross Bay"],
         "languages": [
 			"en"
@@ -367,7 +367,7 @@
         "continent": "AS",
         "capital": "Bandar Seri Begawan",
         "currency": "Dollar (BND)",
-        "population": "423,196",
+        "population": "423,000",
         "cities": ["Kuala Belait", "Seria", "Tutong", "Kapok"],
         "languages": [
 			"ms"
@@ -380,7 +380,7 @@
         "continent": "SA",
         "capital": "Sucre",
         "currency": "Boliviano (BOB)",
-        "population": "10,887,882",
+        "population": "10,887,000",
         "cities": ["Santa Cruz", "Cochabamba", "La Paz", "Oruro"],
         "languages": [
 			"es",
@@ -395,7 +395,7 @@
         "continent": "NA",
         "capital": "Kralendijk",
         "currency": "Dollar (USD)",
-        "population": "18,905",
+        "population": "19,000",
         "cities": ["Dorp Antriol", "Upper Hell's Gate", "Dorp Rincon", "Dorp Tera Kora"],
         "languages": [
 			"nl"
@@ -408,7 +408,7 @@
         "continent": "SA",
         "capital": "Brasília",
         "currency": "Real (BRL)",
-        "population": "207,652,865",
+        "population": "207,652,000",
         "cities": ["SAo Paulo", "Rio de Janeiro", "Salvador", "Fortaleza"],
         "languages": [
 			"pt"
@@ -421,7 +421,7 @@
         "continent": "NA",
         "capital": "Nassau",
         "currency": "Dollar (BSD)",
-        "population": "391,232",
+        "population": "391,000",
         "cities": ["Lucaya", "Freeport", "West End", "Cooper’s Town"],
         "languages": [
 			"en"
@@ -434,7 +434,7 @@
         "continent": "AS",
         "capital": "Thimphu",
         "currency": "Ngultrum (BTN)",
-        "population": "797,765",
+        "population": "798,000",
         "cities": ["Punakha", "Tsirang", "Sarpang", "Samtse"],
         "languages": [
 			"dz"
@@ -458,7 +458,7 @@
         "continent": "AF",
         "capital": "Gaborone",
         "currency": "Pula (BWP)",
-        "population": "2,250,260",
+        "population": "2,250,000",
         "cities": ["Francistown", "Molepolole", "Maun"],
         "languages": [
 			"en",
@@ -472,7 +472,7 @@
         "continent": "EU",
         "capital": "Minsk",
         "currency": "Ruble (BYR)",
-        "population": "9,501,534",
+        "population": "9,501,000",
         "cities": ["Gomel", "Mogilev", "Vitebsk", "Hrodna"],
         "languages": [
 			"be",
@@ -486,7 +486,7 @@
         "continent": "NA",
         "capital": "Belmopan",
         "currency": "Dollar (BZD)",
-        "population": "366,954",
+        "population": "367,000",
         "cities": ["Belize City", "San Ignacio", "Orange Walk", "Dangriga"],
         "languages": [
 			"en",
@@ -500,7 +500,7 @@
         "continent": "NA",
         "capital": "Ottawa",
         "currency": "Dollar (CAD)",
-        "population": "36,264,604",
+        "population": "36,264,000",
         "cities": ["Toronto", "Montreal", "Calgary", "Ottawa"],
         "languages": [
 			"en",
@@ -514,7 +514,7 @@
         "continent": "AS",
         "capital": "West Island",
         "currency": "Dollar (AUD)",
-        "population": "544",
+        "population": "0",
         "cities": ["Bantam Village", "", "", ""],
         "languages": [
 			"en"
@@ -527,7 +527,7 @@
         "continent": "AF",
         "capital": "Kinshasa",
         "currency": "Francs (CDF)",
-        "population": "78,736,153",
+        "population": "78,736,000",
         "cities": ["Lubumbashi", "Mbuji-Mayi", "Kisangani", "Masina"],
         "languages": [
 			"fr",
@@ -544,7 +544,7 @@
         "continent": "AF",
         "capital": "Bangui",
         "currency": "CFA Franc (XAF)",
-        "population": "4,594,621",
+        "population": "4,594,000",
         "cities": ["Bimbo", "Mbaïki", "Bozoum", "Carnot"],
         "languages": [
 			"fr",
@@ -558,7 +558,7 @@
         "continent": "AF",
         "capital": "Brazzaville",
         "currency": "CFA Franc (XAF)",
-        "population": "5,125,821",
+        "population": "5,125,000",
         "cities": ["Dolisie", "Kayes", "Owando", "Pointe-Noire"],
         "languages": [
 			"fr",
@@ -572,7 +572,7 @@
         "continent": "EU",
         "capital": "Bern",
         "currency": "Franc (CHF)",
-        "population": "8,372,413",
+        "population": "8,372,000",
         "cities": ["Zurich", "Geneva", "Basel", "Lausanne"],
         "languages": [
 			"de",
@@ -587,7 +587,7 @@
         "continent": "AF",
         "capital": "Yamoussoukro",
         "currency": "CFA Franc (XOF)",
-        "population": "23,695,919",
+        "population": "23,696,000",
         "cities": ["Abidjan", "Abobo", "Daloa", "Korhogo"],
         "languages": [
 			"fr"
@@ -600,7 +600,7 @@
         "continent": "OC",
         "capital": "Avarua",
         "currency": "Dollar (NZD)",
-        "population": "17,459",
+        "population": "17,000",
         "cities": ["Amuri", "Omoka", "Mangarei", "Motu Koe"],
         "languages": [
 			"en"
@@ -613,7 +613,7 @@
         "continent": "SA",
         "capital": "Santiago",
         "currency": "Peso (CLP)",
-        "population": "17,909,754",
+        "population": "17,909,000",
         "cities": ["Puente Alto", "Antofagasta", "Talcahuano", "San Bernardo"],
         "languages": [
 			"es"
@@ -626,7 +626,7 @@
         "continent": "AF",
         "capital": "Yaoundé",
         "currency": "CFA Franc (XAF)",
-        "population": "23,439,189",
+        "population": "23,439,000",
         "cities": ["Douala", "Garoua", "Bamenda", "Maroua"],
         "languages": [
 			"en",
@@ -653,7 +653,7 @@
         "continent": "SA",
         "capital": "Bogotá",
         "currency": "Peso (COP)",
-        "population": "48,653,419",
+        "population": "48,653,000",
         "cities": ["Santiago de Cali", "Medellín", "Barranquilla", "Cartagena"],
         "languages": [
 			"es"
@@ -666,7 +666,7 @@
         "continent": "NA",
         "capital": "San José",
         "currency": "Colon (CRC)",
-        "population": "4,857,274",
+        "population": "4,857,000",
         "cities": ["Puerto Limón", "San Francisco", "Alajuela", "Liberia"],
         "languages": [
 			"es"
@@ -679,7 +679,7 @@
         "continent": "NA",
         "capital": "Havana",
         "currency": "Peso (CUP)",
-        "population": "11,475,982",
+        "population": "11,476,000",
         "cities": ["Santiago de Cuba", "Camagüey", "Holguín", "Santa Clara"],
         "languages": [
 			"es"
@@ -692,7 +692,7 @@
         "continent": "AF",
         "capital": "Praia",
         "currency": "Escudo (CVE)",
-        "population": "539,560",
+        "population": "539,000",
         "cities": ["Mindelo", "Santa Maria", "Cova Figueira", "Santa Cruz"],
         "languages": [
 			"pt"
@@ -705,7 +705,7 @@
         "continent": "NA",
         "capital": "Willemstad",
         "currency": "Guilder (ANG)",
-        "population": "159,663",
+        "population": "159,000",
         "cities": ["Sint Michiel Liber", "Barber", "Dorp Soto", "Sabana Westpunt"],
         "languages": [
 			"nl",
@@ -720,7 +720,7 @@
         "continent": "AS",
         "capital": "Flying Fish Cove",
         "currency": "Dollar (AUD)",
-        "population": "1,843",
+        "population": "2,000",
         "cities": ["", "", "", ""],
         "languages": [
 			"en"
@@ -733,7 +733,7 @@
         "continent": "EU",
         "capital": "Nicosia",
         "currency": "Euro (EUR)",
-        "population": "1,170,125",
+        "population": "1,170,000",
         "cities": ["Limassol", "Larnaca", "Famagusta", "Paphos"],
         "languages": [
 			"el",
@@ -748,7 +748,7 @@
         "continent": "EU",
         "capital": "Prague",
         "currency": "Koruna (CZK)",
-        "population": "10,566,332",
+        "population": "10,566,000",
         "cities": ["Brno", "Ostrava", "Pilsen", "Olomouc"],
         "languages": [
 			"cs",
@@ -762,7 +762,7 @@
         "continent": "EU",
         "capital": "Berlin",
         "currency": "Euro (EUR)",
-        "population": "82,487,842",
+        "population": "82,487,000",
         "cities": ["", "", "", ""],
         "languages": [
 			"de"
@@ -775,7 +775,7 @@
         "continent": "AF",
         "capital": "Djibouti",
         "currency": "Franc (DJF)",
-        "population": "942,333",
+        "population": "942,000",
         "cities": ["Hamburg", "Munich", "Cologne", "Stuttgart"],
         "languages": [
 			"fr",
@@ -789,7 +789,7 @@
         "continent": "EU",
         "capital": "Copenhagen",
         "currency": "Krone (DKK)",
-        "population": "5,728,010",
+        "population": "5,728,000",
         "cities": ["Aarhus", "Odense", "Aalborg", "Esbjerg"],
         "languages": [
 			"da"
@@ -802,7 +802,7 @@
         "continent": "NA",
         "capital": "Roseau",
         "currency": "Dollar (XCD)",
-        "population": "73,543",
+        "population": "73,000",
         "cities": ["Portsmouth", "Marigot", "Berekua", "Mahaut"],
         "languages": [
 			"en"
@@ -815,7 +815,7 @@
         "continent": "NA",
         "capital": "Santo Domingo",
         "currency": "Peso (DOP)",
-        "population": "10,648,791",
+        "population": "10,648,000",
         "cities": ["La Romana", "Puerto Plata", "Santo Domingo Oeste"],
         "languages": [
 			"es"
@@ -828,7 +828,7 @@
         "continent": "AF",
         "capital": "Algiers",
         "currency": "Dinar (DZD)",
-        "population": "40,606,052",
+        "population": "40,606,000",
         "cities": ["Boumerdas", "Oran", "Constantine", "Biskra"],
         "languages": [
 			"ar"
@@ -841,7 +841,7 @@
         "continent": "SA",
         "capital": "Quito",
         "currency": "Sucre",
-        "population": "16,385,068",
+        "population": "16,385,000",
         "cities": ["Guayaquil", "Cuenca", "Machala", "Manta"],
         "languages": [
 			"es"
@@ -854,7 +854,7 @@
         "continent": "EU",
         "capital": "Tallinn",
         "currency": "Euro (EUR)",
-        "population": "1,315,790",
+        "population": "1,315,000",
         "cities": ["Tartu", "Narva", "Viljandi", "Rakvere"],
         "languages": [
 			"et"
@@ -867,7 +867,7 @@
         "continent": "AF",
         "capital": "Cairo",
         "currency": "Pound (EGP)",
-        "population": "95,688,681",
+        "population": "95,688,000",
         "cities": ["Alexandria", "Giza", "Port Said", "Suez"],
         "languages": [
 			"ar"
@@ -880,7 +880,7 @@
         "continent": "AF",
         "capital": "El Aaiún",
         "currency": "Dirham (MAD)",
-        "population": "603,253",
+        "population": "603,000",
         "cities": ["Dakhla", "Daoura", "Foum el Oued"],
         "languages": [
 			"es"
@@ -893,7 +893,7 @@
         "continent": "AF",
         "capital": "Asmara",
         "currency": "Nafka (ERN)",
-        "population": "5,168,186",
+        "population": "5,168,000",
         "cities": ["Keren", "Massawa", "Assab", "Barentu"],
         "languages": [
 			"ti",
@@ -908,7 +908,7 @@
         "continent": "EU",
         "capital": "Madrid",
         "currency": "Euro (EUR)",
-        "population": "46,484,533",
+        "population": "46,484,000",
         "cities": ["Barcelona", "Valencia", "Seville", "Zaragoza"],
         "languages": [
 			"es",
@@ -925,7 +925,7 @@
         "continent": "AF",
         "capital": "Addis Ababa",
         "currency": "Birr (ETB)",
-        "population": "102,403,196",
+        "population": "102,403,000",
         "cities": ["Dire Dawa", "Mek'ele", "Bahir Dar", "Gonder"],
         "languages": [
 			"am"
@@ -938,7 +938,7 @@
         "continent": "EU",
         "capital": "Helsinki",
         "currency": "Euro (EUR)",
-        "population": "5,495,303",
+        "population": "5,495,000",
         "cities": ["Espoo", "Tampere", "Vantaa", "Turku"],
         "languages": [
 			"fi",
@@ -952,7 +952,7 @@
         "continent": "OC",
         "capital": "Suva",
         "currency": "Dollar (FJD)",
-        "population": "898,760",
+        "population": "898,000",
         "cities": ["Lautoka", "Nadi", "Labasa", "Ba"],
         "languages": [
 			"en",
@@ -968,7 +968,7 @@
         "continent": "SA",
         "capital": "Stanley",
         "currency": "Pound (FKP)",
-        "population": "3,398",
+        "population": "4,000",
         "cities": ["Port Howard", "", "", ""],
         "languages": [
 			"en"
@@ -981,7 +981,7 @@
         "continent": "OC",
         "capital": "Palikir",
         "currency": "Dollar (USD)",
-        "population": "104,937",
+        "population": "105,000",
         "cities": ["Weno", "Tofol", "Colonia", "Kolonia"],
         "languages": [
 			"en"
@@ -994,7 +994,7 @@
         "continent": "EU",
         "capital": "Tórshavn",
         "currency": "Krone (DKK)",
-        "population": "49,117",
+        "population": "49,000",
         "cities": ["Klaksvík", "Hoyvík", "Argir", "Vestmanna"],
         "languages": [
 			"fo"
@@ -1007,7 +1007,7 @@
         "continent": "EU",
         "capital": "Paris",
         "currency": "Euro (EUR)",
-        "population": "66,892,205",
+        "population": "66,892,000",
         "cities": ["Marseille", "Lyon", "Toulouse", "Nice"],
         "languages": [
 			"fr"
@@ -1020,7 +1020,7 @@
         "continent": "AF",
         "capital": "Libreville",
         "currency": "CFA Franc (XAF)",
-        "population": "1,979,786",
+        "population": "1,979,000",
         "cities": ["Port-Gentil", "Oyem", "Moanda", "Mouila"],
         "languages": [
 			"fr"
@@ -1033,7 +1033,7 @@
         "continent": "EU",
         "capital": "London",
         "currency": "Pound (GBP)",
-        "population": "65,595,565",
+        "population": "65,595,000",
         "cities": ["Birmingham", "Liverpool", "Nottingham", "Sheffield"],
         "languages": [
 			"en"
@@ -1046,7 +1046,7 @@
         "continent": "NA",
         "capital": "St. George's",
         "currency": "Dollar (XCD)",
-        "population": "107,317",
+        "population": "107,000",
         "cities": ["Gouyave", "Grenville", "Victoria", "Saint David’s"],
         "languages": [
 			"en"
@@ -1059,7 +1059,7 @@
         "continent": "AS",
         "capital": "Tbilisi",
         "currency": "Lari (GEL)",
-        "population": "3,719,300",
+        "population": "3,719,000",
         "cities": ["Kutaisi", "Batumi", "Sukhumi", "Zugdidi"],
         "languages": [
 			"ka"
@@ -1072,7 +1072,7 @@
         "continent": "SA",
         "capital": "Cayenne",
         "currency": "Euro (EUR)",
-        "population": "288,725",
+        "population": "288,000",
         "cities": ["Matoury", "Kourou", "Macouria", "Mana"],
         "languages": [
 			"fr"
@@ -1085,7 +1085,7 @@
         "continent": "EU",
         "capital": "St. Peter Port",
         "currency": "Pound (GBP)",
-        "population": "63,026",
+        "population": "63,000",
         "cities": ["Sark", "La Seigneurie", "", ""],
         "languages": [
 			"en",
@@ -1099,7 +1099,7 @@
         "continent": "AF",
         "capital": "Accra",
         "currency": "Cedi (GHS)",
-        "population": "28,206,728",
+        "population": "28,206,000",
         "cities": ["Kumasi", "Tamale", "Takoradze", "Achiaman"],
         "languages": [
 			"en"
@@ -1112,7 +1112,7 @@
         "continent": "EU",
         "capital": "Gibraltar",
         "currency": "Pound (GIP)",
-        "population": "34,408",
+        "population": "34,000",
         "cities": ["", "", "", ""],
         "languages": [
 			"en"
@@ -1125,7 +1125,7 @@
         "continent": "NA",
         "capital": "Nuuk",
         "currency": "Krone (DKK)",
-        "population": "56,186",
+        "population": "56,000",
         "cities": ["Sisimiut", "Ilulissat", "Qaqortoq", "Aasiaat"],
         "languages": [
 			"kl"
@@ -1138,7 +1138,7 @@
         "continent": "AF",
         "capital": "Banjul",
         "currency": "Dalasi (GMD)",
-        "population": "2,038,501",
+        "population": "2,038,000",
         "cities": ["Serrekunda", "Brikama", "Bakau", "Lamin"],
         "languages": [
 			"en"
@@ -1151,7 +1151,7 @@
         "continent": "AF",
         "capital": "Conakry",
         "currency": "Franc (GNF)",
-        "population": "12,395,924",
+        "population": "12,395,000",
         "cities": ["Camayenne", "Kindia", "Kankan", "Coyah"],
         "languages": [
 			"fr",
@@ -1165,7 +1165,7 @@
         "continent": "NA",
         "capital": "Basse-Terre",
         "currency": "Euro (EUR)",
-        "population": "449,235",
+        "population": "449,000",
         "cities": ["Les Abymes", "Lamentin", "Le Moule", "Petit-Bourg"],
         "languages": [
 			"fr"
@@ -1178,7 +1178,7 @@
         "continent": "AF",
         "capital": "Malabo",
         "currency": "CFA Franc (XAF)",
-        "population": "1,221,490",
+        "population": "1,221,000",
         "cities": ["Bata", "Ebebiyin", "Aconibe", "Luba"],
         "languages": [
 			"es",
@@ -1192,7 +1192,7 @@
         "continent": "EU",
         "capital": "Athens",
         "currency": "Euro (EUR)",
-        "population": "10,770,521",
+        "population": "10,770,000",
         "cities": ["Piraeus", "Larissa", "Peristeri", "Kallithea"],
         "languages": [
 			"el"
@@ -1218,7 +1218,7 @@
         "continent": "NA",
         "capital": "Guatemala City",
         "currency": "Quetzal (GTQ)",
-        "population": "16,582,469",
+        "population": "16,582,000",
         "cities": ["Mixco", "Villa Nueva", "Petapa", "Villa Canales"],
         "languages": [
 			"es"
@@ -1231,7 +1231,7 @@
         "continent": "OC",
         "capital": "Hagåtña",
         "currency": "Dollar (USD)",
-        "population": "162,896",
+        "population": "162,000",
         "cities": ["Dededo Village", "Yigo Village", "Mangilao Village", "Santa Rita"],
         "languages": [
 			"en",
@@ -1246,7 +1246,7 @@
         "continent": "AF",
         "capital": "Bissau",
         "currency": "CFA Franc (XOF)",
-        "population": "1,815,698",
+        "population": "1,815,000",
         "cities": ["Bolama", "Bissorã", "Gabú", "Bafatá"],
         "languages": [
 			"pt"
@@ -1259,7 +1259,7 @@
         "continent": "SA",
         "capital": "Georgetown",
         "currency": "Dollar (GYD)",
-        "population": "773,303",
+        "population": "773,000",
         "cities": ["Linden", "New Amsterdam", "Bartica", "Skeldon"],
         "languages": [
 			"en"
@@ -1272,7 +1272,7 @@
         "continent": "AS",
         "capital": "City of Victoria",
         "currency": "Dollar (HKD)",
-        "population": "7,336,600",
+        "population": "7,336,000",
         "cities": ["Kowloon", "Tsuen Wan", "Tung Chung", "Shatin"],
         "languages": [
 			"zh",
@@ -1299,7 +1299,7 @@
         "continent": "NA",
         "capital": "Tegucigalpa",
         "currency": "Lempira (HNL)",
-        "population": "9,112,867",
+        "population": "9,112,000",
         "cities": ["Choloma", "San Pedro Sula", "La Ceiba", "El Progreso"],
         "languages": [
 			"es"
@@ -1312,7 +1312,7 @@
         "continent": "EU",
         "capital": "Zagreb",
         "currency": "Kuna (HRK)",
-        "population": "4,174,349",
+        "population": "4,174,000",
         "cities": ["Split", "Rijeka", "Osijek", "Zadar"],
         "languages": [
 			"hr"
@@ -1325,7 +1325,7 @@
         "continent": "NA",
         "capital": "Port-au-Prince",
         "currency": "Gourde (HTG)",
-        "population": "10,847,334",
+        "population": "10,847,000",
         "cities": ["Pétionville", "Delmas 73", "Jacmel", "Les Cayes"],
         "languages": [
 			"fr",
@@ -1339,7 +1339,7 @@
         "continent": "EU",
         "capital": "Budapest",
         "currency": "Forint (HUF)",
-        "population": "9,814,023",
+        "population": "9,814,000",
         "cities": ["Debrecen", "Miskolc", "Szeged", "Pécs"],
         "languages": [
 			"hu"
@@ -1352,7 +1352,7 @@
         "continent": "AS",
         "capital": "Jakarta",
         "currency": "Rupiah (IDR)",
-        "population": "261,115,456",
+        "population": "261,115,000",
         "cities": ["Surabaya", "Medan", "Bandung", "Bekasi"],
         "languages": [
 			"id"
@@ -1365,7 +1365,7 @@
         "continent": "EU",
         "capital": "Dublin",
         "currency": "Euro (EUR)",
-        "population": "4,749,777",
+        "population": "4,749,000",
         "cities": ["Cork", "Galway", "Tallaght", "Swords"],
         "languages": [
 			"ga",
@@ -1393,7 +1393,7 @@
         "continent": "EU",
         "capital": "Douglas",
         "currency": "Pound (GBP)",
-        "population": "83,737",
+        "population": "83,000",
         "cities": ["Ramsey", "Peel", "Port Erin", "Castletown"],
         "languages": [
 			"en",
@@ -1407,7 +1407,7 @@
         "continent": "AS",
         "capital": "New Delhi",
         "currency": "Rupee (INR)",
-        "population": "1,324,171,354",
+        "population": "1,324,171,000",
         "cities": ["Mumbai", "Bengaluru", "Kolkata", "Chennai"],
         "languages": [
 			"hi",
@@ -1434,7 +1434,7 @@
         "continent": "AS",
         "capital": "Baghdad",
         "currency": "Dinar (IQD)",
-        "population": "37,202,572",
+        "population": "37,202,000",
         "cities": ["Basra", "Mosul", "Erbil", "Abu Ghraib"],
         "languages": [
 			"ar",
@@ -1448,7 +1448,7 @@
         "continent": "AS",
         "capital": "Tehran",
         "currency": "Rial (IRR)",
-        "population": "80,277,428",
+        "population": "80,277,000",
         "cities": ["Mashhad", "Isfahan", "Karaj", "Tabriz"],
         "languages": [
 			"fa"
@@ -1461,7 +1461,7 @@
         "continent": "EU",
         "capital": "Reykjavik",
         "currency": "Krona (ISK)",
-        "population": "335,439",
+        "population": "335,000",
         "cities": ["Kopavogur", "Akureyri", "Akranes", "Selfoss"],
         "languages": [
 			"is"
@@ -1474,7 +1474,7 @@
         "continent": "EU",
         "capital": "Rome",
         "currency": "Euro (EUR)",
-        "population": "60,627,498",
+        "population": "60,627,000",
         "cities": ["Milan", "Naples", "Turin", "Palermo"],
         "languages": [
 			"it"
@@ -1487,7 +1487,7 @@
         "continent": "EU",
         "capital": "Saint Helier",
         "currency": "Pound (GBP)",
-        "population": "100,080",
+        "population": "100,000",
         "cities": ["", "", "", ""],
         "languages": [
 			"en",
@@ -1501,7 +1501,7 @@
         "continent": "NA",
         "capital": "Kingston",
         "currency": "Dollar (JMD)",
-        "population": "2,881,355",
+        "population": "2,881,000",
         "cities": ["Spanish Town", "Portmore", "Montego Bay", "Mandeville"],
         "languages": [
 			"en"
@@ -1514,7 +1514,7 @@
         "continent": "AS",
         "capital": "Amman",
         "currency": "Dinar (JOD)",
-        "population": "9,455,802",
+        "population": "9,455,000",
         "cities": ["Zarqa", "Irbid", "Russeifa", "Wadi Al Seer"],
         "languages": [
 			"ar"
@@ -1527,7 +1527,7 @@
         "continent": "AS",
         "capital": "Tokyo",
         "currency": "Yen (JPY)",
-        "population": "126,994,511",
+        "population": "126,994,000",
         "cities": ["Yokohama", "Osaka", "Nagoya", "Sapporo"],
         "languages": [
 			"ja"
@@ -1540,7 +1540,7 @@
         "continent": "AF",
         "capital": "Nairobi",
         "currency": "Shilling (KES)",
-        "population": "48,461,567",
+        "population": "48,461,000",
         "cities": ["Mombasa", "Nakuru", "Eldoret", "Kisumu"],
         "languages": [
 			"en",
@@ -1554,7 +1554,7 @@
         "continent": "AS",
         "capital": "Bishkek",
         "currency": "Som (KGS)",
-        "population": "5,776,500",
+        "population": "5,776,000",
         "cities": ["Osh", "Jalal-Abad", "Karakol", "Tokmok"],
         "languages": [
 			"ky",
@@ -1568,7 +1568,7 @@
         "continent": "AS",
         "capital": "Phnom Penh",
         "currency": "Riel (KHR)",
-        "population": "15,762,370",
+        "population": "15,762,000",
         "cities": ["Takeo", "Kampong Saom", "Siem Reap", "Poipet"],
         "languages": [
 			"km"
@@ -1581,7 +1581,7 @@
         "continent": "OC",
         "capital": "South Tarawa",
         "currency": "Dollar (AUD)",
-        "population": "114,395",
+        "population": "114,000",
         "cities": ["Betio Village", "Bairiki Village", "Eita Village", "Bonriki Village"],
         "languages": [
 			"en"
@@ -1594,7 +1594,7 @@
         "continent": "AF",
         "capital": "Moroni",
         "currency": "Franc (KMF)",
-        "population": "795,601",
+        "population": "795,000",
         "cities": ["Fomboni", "Domoni", "Sima", "Ouani"],
         "languages": [
 			"ar",
@@ -1608,7 +1608,7 @@
         "continent": "NA",
         "capital": "Basseterre",
         "currency": "Dollar (XCD)",
-        "population": "54,821",
+        "population": "55,000",
         "cities": ["Fig Tree", "Market Shop", "Middle Island", "Nicola Town"],
         "languages": [
 			"en"
@@ -1621,7 +1621,7 @@
         "continent": "AS",
         "capital": "Pyongyang",
         "currency": "Won (KPW)",
-        "population": "25,591,742",
+        "population": "25,591,000",
         "cities": ["Hamhung", "Namp’o", "Kaesong", "Wonsan"],
         "languages": [
 			"ko"
@@ -1634,7 +1634,7 @@
         "continent": "AS",
         "capital": "Seoul",
         "currency": "Won (KRW)",
-        "population": "51,245,707",
+        "population": "51,245,000",
         "cities": ["Busan", "Incheon", "Daegu", "Daejeon"],
         "languages": [
 			"ko"
@@ -1647,7 +1647,7 @@
         "continent": "AS",
         "capital": "Kuwait City",
         "currency": "Dinar (KWD)",
-        "population": "4,052,584",
+        "population": "4,052,000",
         "cities": ["Al Ahmadi", "Ar Riqqah", "Al Manqaf", "Al Jahra"],
         "languages": [
 			"ar"
@@ -1660,7 +1660,7 @@
         "continent": "NA",
         "capital": "George Town",
         "currency": "Dollar (KYD)",
-        "population": "60,765",
+        "population": "60,000",
         "cities": ["West Bay", "Bodden Town", "Bodden Town"],
         "languages": [
 			"en"
@@ -1673,7 +1673,7 @@
         "continent": "AS",
         "capital": "Astana",
         "currency": "Tenge (KZT)",
-        "population": "17,794,397",
+        "population": "17,794,000",
         "cities": ["Almaty", "Karagandy", "Shymkent", "Taraz"],
         "languages": [
 			"kk",
@@ -1687,7 +1687,7 @@
         "continent": "AS",
         "capital": "Vientiane",
         "currency": "Kip (LAK)",
-        "population": "6,758,353",
+        "population": "6,758,000",
         "cities": ["Pakse", "Thakhek", "Luang Prabang", "Xam Nua"],
         "languages": [
 			"lo"
@@ -1700,7 +1700,7 @@
         "continent": "AS",
         "capital": "Beirut",
         "currency": "Pound (LBP)",
-        "population": "6,006,668",
+        "population": "6,006,000",
         "cities": ["Tripoli", "Sidon", "Tyre", "Jounieh"],
         "languages": [
 			"ar",
@@ -1714,7 +1714,7 @@
         "continent": "NA",
         "capital": "Castries",
         "currency": "Dollar (XCD)",
-        "population": "178,015",
+        "population": "178,000",
         "cities": ["Vieux Fort", "Micoud", "Dennery", "Gros Islet"],
         "languages": [
 			"en"
@@ -1727,7 +1727,7 @@
         "continent": "EU",
         "capital": "Vaduz",
         "currency": "Franc (CHF)",
-        "population": "37,666",
+        "population": "37,000",
         "cities": ["Schaan", "Triesen", "Balzers", "Eschen"],
         "languages": [
 			"de"
@@ -1754,7 +1754,7 @@
         "continent": "AF",
         "capital": "Monrovia",
         "currency": "Dollar (LRD)",
-        "population": "4,613,823",
+        "population": "4,613,000",
         "cities": ["Gbarnga", "Kakata", "Bensonville"],
         "languages": [
 			"en"
@@ -1767,7 +1767,7 @@
         "continent": "AF",
         "capital": "Maseru",
         "currency": "Loti (LSL)",
-        "population": "2,203,821",
+        "population": "2,203,000",
         "cities": ["Mafeteng", "Hlotse", "Maputsoe", "Quthing"],
         "languages": [
 			"en",
@@ -1781,7 +1781,7 @@
         "continent": "EU",
         "capital": "Vilnius",
         "currency": "Litas (LTL)",
-        "population": "2,868,231",
+        "population": "2,868,000",
         "cities": ["Kaunas", "Alytus", "Jonava", "Utena"],
         "languages": [
 			"lt"
@@ -1794,7 +1794,7 @@
         "continent": "EU",
         "capital": "Luxembourg",
         "currency": "Euro (EUR)",
-        "population": "582,014",
+        "population": "582,000",
         "cities": ["Dudelange", "Diekirch", "Strassen", "Bertrange"],
         "languages": [
 			"fr",
@@ -1809,7 +1809,7 @@
         "continent": "EU",
         "capital": "Riga",
         "currency": "Euro (EUR)",
-        "population": "1,959,537",
+        "population": "1,959,000",
         "cities": ["Daugavpils", "Jelgava", "Ventspils", "Valmiera"],
         "languages": [
 			"lv"
@@ -1822,7 +1822,7 @@
         "continent": "AF",
         "capital": "Tripoli",
         "currency": "Dinar (LYD)",
-        "population": "6,293,253",
+        "population": "6,293,000",
         "cities": ["Benghazi", "Misratah", "Tarhuna", "Al Khums"],
         "languages": [
 			"ar"
@@ -1835,7 +1835,7 @@
         "continent": "AF",
         "capital": "Rabat",
         "currency": "Dirham (MAD)",
-        "population": "35,276,786",
+        "population": "35,276,000",
         "cities": ["Casablanca", "Marrakesh", "Fes", "Agadir"],
         "languages": [
 			"ar"
@@ -1848,7 +1848,7 @@
         "continent": "EU",
         "capital": "Monaco",
         "currency": "Euro (EUR)",
-        "population": "38,499",
+        "population": "38,000",
         "cities": ["", "", "", ""],
         "languages": [
 			"fr"
@@ -1861,7 +1861,7 @@
         "continent": "EU",
         "capital": "Chișinău",
         "currency": "Leu (MDL)",
-        "population": "3,551,954",
+        "population": "3,551,000",
         "cities": ["Tiraspol", "Cahul", "Ungheni", "Orhei"],
         "languages": [
 			"ro"
@@ -1874,7 +1874,7 @@
         "continent": "EU",
         "capital": "Podgorica",
         "currency": "Euro (EUR)",
-        "population": "622,303",
+        "population": "622,000",
         "cities": ["Podgorica", "Herceg Novi", "Pljevlja", "Budva"],
         "languages": [
 			"sr",
@@ -1890,7 +1890,7 @@
         "continent": "NA",
         "capital": "Marigot",
         "currency": "Euro (EUR)",
-        "population": "31,949",
+        "population": "31,000",
         "cities": ["", "", "", ""],
         "languages": [
 			"en",
@@ -1905,7 +1905,7 @@
         "continent": "AF",
         "capital": "Antananarivo",
         "currency": "Franc (MGA)",
-        "population": "24,894,551",
+        "population": "24,894,000",
         "cities": ["", "", "", ""],
         "languages": [
 			"fr",
@@ -1933,7 +1933,7 @@
         "continent": "EU",
         "capital": "Skopje",
         "currency": "Denar (MKD)",
-        "population": "2,081,206",
+        "population": "2,081,000",
         "cities": ["Bitola", "Kumanovo", "Prilep", "Tetovo"],
         "languages": [
 			"mk"
@@ -1946,7 +1946,7 @@
         "continent": "AF",
         "capital": "Bamako",
         "currency": "CFA Franc (XOF)",
-        "population": "17,994,837",
+        "population": "17,994,000",
         "cities": ["Sikasso", "Mopti", "Koutiala", "Gao"],
         "languages": [
 			"fr"
@@ -1959,7 +1959,7 @@
         "continent": "AS",
         "capital": "Naypyidaw",
         "currency": "Kyat (MMK)",
-        "population": "53,784,630",
+        "population": "53,784,000",
         "cities": ["Yangon", "Mandalay", "Mawlamyine", "Bago"],
         "languages": [
 			"my"
@@ -1972,7 +1972,7 @@
         "continent": "AS",
         "capital": "Ulan Bator",
         "currency": "Tugrik (MNT)",
-        "population": "3,027,398",
+        "population": "3,027,000",
         "cities": ["Khovd", "Erdenet", "Darhan", "Ulaangom"],
         "languages": [
 			"mn"
@@ -1985,7 +1985,7 @@
         "continent": "AS",
         "capital": "",
         "currency": "Pataca (MOP)",
-        "population": "612,167",
+        "population": "612,000",
         "cities": ["", "", "", ""],
         "languages": [
 			"zh",
@@ -1999,7 +1999,7 @@
         "continent": "OC",
         "capital": "Saipan",
         "currency": "Dollar (USD)",
-        "population": "55,023",
+        "population": "55,000",
         "cities": ["San Jose", "Pagan Village", "Agrihan Village", "Alamagan Village"],
         "languages": [
 			"en",
@@ -2013,7 +2013,7 @@
         "continent": "NA",
         "capital": "Fort-de-France",
         "currency": "Euro (EUR)",
-        "population": "386,086",
+        "population": "386,000",
         "cities": ["Le Lamentin", "Le Robert", "Ducos", "La Trinité"],
         "languages": [
 			"fr"
@@ -2026,7 +2026,7 @@
         "continent": "AF",
         "capital": "Nouakchott",
         "currency": "Ouguiya (MRO)",
-        "population": "4,301,018",
+        "population": "4,301,000",
         "cities": ["Nouadhibou", "Rosso", "Kiffa", "Atar"],
         "languages": [
 			"ar"
@@ -2039,7 +2039,7 @@
         "continent": "NA",
         "capital": "Plymouth",
         "currency": "Dollar (XCD)",
-        "population": "5,199",
+        "population": "5,000",
         "cities": ["Brades", "Cork Hill", "Salem", "Saint John's Village"],
         "languages": [
 			"en"
@@ -2052,7 +2052,7 @@
         "continent": "EU",
         "capital": "Valletta",
         "currency": "Euro (EUR)",
-        "population": "437,418",
+        "population": "437,000",
         "cities": ["Birkirkara", "Qormi", "Mosta", "Fgura"],
         "languages": [
 			"mt",
@@ -2066,7 +2066,7 @@
         "continent": "AF",
         "capital": "Port Louis",
         "currency": "Rupee (MUR)",
-        "population": "1,263,473",
+        "population": "1,263,000",
         "cities": ["", "", "", ""],
         "languages": [
 			"en"
@@ -2079,7 +2079,7 @@
         "continent": "AS",
         "capital": "Malé",
         "currency": "Rufiyaa (MVR)",
-        "population": "427,756",
+        "population": "427,000",
         "cities": ["Vacoas", "Curepipe", "Quatre Bornes", "Triolet"],
         "languages": [
 			"dv"
@@ -2092,7 +2092,7 @@
         "continent": "AF",
         "capital": "Lilongwe",
         "currency": "Kwacha (MWK)",
-        "population": "18,091,575",
+        "population": "18,091,000",
         "cities": ["Blantyre", "Mzuzu", "Zomba", "Kasungu"],
         "languages": [
 			"en",
@@ -2106,7 +2106,7 @@
         "continent": "NA",
         "capital": "Mexico City",
         "currency": "Nuevo Peso (MXN)",
-        "population": "127,540,423",
+        "population": "127,540,000",
         "cities": ["Iztapalapa", "Guadalajara", "Puebla City", "Tijuana"],
         "languages": [
 			"es"
@@ -2119,7 +2119,7 @@
         "continent": "AS",
         "capital": "Kuala Lumpur",
         "currency": "Ringgit (MYR)",
-        "population": "31,187,265",
+        "population": "31,187,000",
         "cities": ["Kota Bharu", "Klang", "Johor Bahru", "Ipoh"],
         "languages": []
     },
@@ -2130,7 +2130,7 @@
         "continent": "AF",
         "capital": "Maputo",
         "currency": "Metical (MZN)",
-        "population": "28,829,476",
+        "population": "28,829,000",
         "cities": ["Matola", "Beira", "Nampula", "Chimoio"],
         "languages": [
 			"pt"
@@ -2143,7 +2143,7 @@
         "continent": "AF",
         "capital": "Windhoek",
         "currency": "Dollar (NAD)",
-        "population": "2,479,713",
+        "population": "2,479,000",
         "cities": ["Rundu", "Walvis Bay", "Oshakati", "Katima Mulilo"],
         "languages": [
 			"en",
@@ -2170,7 +2170,7 @@
         "continent": "AF",
         "capital": "Niamey",
         "currency": "CFA Franc (XOF)",
-        "population": "20,672,987",
+        "population": "20,672,000",
         "cities": ["Zinder", "Maradi", "Agadez", "Alaghsas"],
         "languages": [
 			"fr"
@@ -2183,7 +2183,7 @@
         "continent": "OC",
         "capital": "Kingston",
         "currency": "Dollar (AUD)",
-        "population": "1,748",
+        "population": "2,000",
         "cities": ["", "", "", ""],
         "languages": [
 			"en"
@@ -2196,7 +2196,7 @@
         "continent": "AF",
         "capital": "Abuja",
         "currency": "Naira (NGN)",
-        "population": "185,989,640",
+        "population": "185,989,000",
         "cities": ["Kano", "Lagos", "Ibadan", "Kaduna"],
         "languages": [
 			"en"
@@ -2209,7 +2209,7 @@
         "continent": "NA",
         "capital": "Managua",
         "currency": "Cordoba Oro (NIO)",
-        "population": "6,149,928",
+        "population": "6,149,000",
         "cities": ["Masaya", "Tipitapa", "Jinotega", "Estelí"],
         "languages": [
 			"es"
@@ -2222,7 +2222,7 @@
         "continent": "EU",
         "capital": "Amsterdam",
         "currency": "Euro (EUR)",
-        "population": "17,030,314",
+        "population": "17,030,000",
         "cities": ["Rotterdam", "The Hague", "Utrecht", "Eindhoven"],
         "languages": [
 			"nl"
@@ -2235,7 +2235,7 @@
         "continent": "EU",
         "capital": "Oslo",
         "currency": "Krone (NOK)",
-        "population": "5,236,151",
+        "population": "5,236,000",
         "cities": ["Bergen", "Trondheim", "Stavanger", "Drammen"],
         "languages": [
 			"no",
@@ -2250,7 +2250,7 @@
         "continent": "AS",
         "capital": "Kathmandu",
         "currency": "Rupee (NPR)",
-        "population": "28,982,771",
+        "population": "28,982,000",
         "cities": ["Pokhara", "Patan", "Birgunj", "Biratnagar"],
         "languages": [
 			"ne"
@@ -2263,7 +2263,7 @@
         "continent": "OC",
         "capital": "Yaren",
         "currency": "Dollar (AUD)",
-        "population": "13,049",
+        "population": "13,000",
         "cities": ["Arijejen", "Menen", "Boe", "Nibok"],
         "languages": [
 			"en",
@@ -2277,7 +2277,7 @@
         "continent": "OC",
         "capital": "Alofi",
         "currency": "Dollar (NZD)",
-        "population": "1,600",
+        "population": "2,000",
         "cities": ["Hakupu", "Avatele", "Mutalau", "Tuapa"],
         "languages": [
 			"en"
@@ -2290,7 +2290,7 @@
         "continent": "OC",
         "capital": "Wellington",
         "currency": "Dollar (NZD)",
-        "population": "4,693,200",
+        "population": "4,693,000",
         "cities": ["Auckland", "Manukau", "Waitakere", "Hamilton"],
         "languages": [
 			"en",
@@ -2304,7 +2304,7 @@
         "continent": "AS",
         "capital": "Muscat",
         "currency": "Rial (OMR)",
-        "population": "4,424,762",
+        "population": "4,424,000",
         "cities": ["Seeb", "Salalah", "Bawshar", "Sohar"],
         "languages": [
 			"ar"
@@ -2317,7 +2317,7 @@
         "continent": "NA",
         "capital": "Panama City",
         "currency": "Balbao (PAB)",
-        "population": "4,034,119",
+        "population": "4,034,000",
         "cities": ["San Miguelito", "David", "La Chorrera", "Pedregal"],
         "languages": [
 			"es"
@@ -2330,7 +2330,7 @@
         "continent": "SA",
         "capital": "Lima",
         "currency": "Nuevo Sol (PEN)",
-        "population": "31,773,839",
+        "population": "31,773,000",
         "cities": ["Arequipa", "Callao", "Trujillo", "Chiclayo"],
         "languages": [
 			"es"
@@ -2343,7 +2343,7 @@
         "continent": "OC",
         "capital": "Papeetē",
         "currency": "CFP Franc (XPF)",
-        "population": "280,208",
+        "population": "280,000",
         "cities": ["Faaa", "Punaauia", "Pirae", "Mahina"],
         "languages": [
 			"fr"
@@ -2356,7 +2356,7 @@
         "continent": "OC",
         "capital": "Port Moresby",
         "currency": "Kina (PGK)",
-        "population": "8,084,991",
+        "population": "8,085,000",
         "cities": ["Lae", "Arawa", "Mt Hagen", "Madang"],
         "languages": [
 			"en"
@@ -2369,7 +2369,7 @@
         "continent": "AS",
         "capital": "Manila",
         "currency": "Peso (PHP)",
-        "population": "103,320,222",
+        "population": "103,320,000",
         "cities": ["Quezon City", "Caloocan City", "Budta", "Davao City"],
         "languages": [
 			"en"
@@ -2382,7 +2382,7 @@
         "continent": "AS",
         "capital": "Islamabad",
         "currency": "Rupee (PKR)",
-        "population": "193,203,476",
+        "population": "193,203,000",
         "cities": ["Karachi", "Lahore", "Faisalabad", "Multan"],
         "languages": [
 			"en",
@@ -2396,7 +2396,7 @@
         "continent": "EU",
         "capital": "Warsaw",
         "currency": "Zloty (PLN)",
-        "population": "37,970,087",
+        "population": "37,970,000",
         "cities": ["Krakow", "Wrocław", "Poznań", "Szczecin"],
         "languages": [
 			"pl"
@@ -2409,7 +2409,7 @@
         "continent": "NA",
         "capital": "Saint-Pierre",
         "currency": "Euro (EUR)",
-        "population": "6339",
+        "population": "6,000",
         "cities": ["", "", "", ""],
         "languages": [
 			"fr"
@@ -2435,7 +2435,7 @@
         "continent": "NA",
         "capital": "San Juan",
         "currency": "Dollar (USD)",
-        "population": "3,411,307",
+        "population": "3,411,000",
         "cities": ["Carolina", "Ponce", "Caguas", "Guaynabo"],
         "languages": [
 			"es",
@@ -2449,7 +2449,7 @@
         "continent": "AS",
         "capital": "Ramallah",
         "currency": "Shekel (ILS)",
-        "population": "4,551,566",
+        "population": "4,551,000",
         "cities": ["Gaza", "Khan Yunis", "Jabalia", "Hebron"],
         "languages": [
 			"ar"
@@ -2462,7 +2462,7 @@
         "continent": "EU",
         "capital": "Lisbon",
         "currency": "Euro (EUR)",
-        "population": "10,325,452",
+        "population": "10,325,000",
         "cities": ["Porto", "Amadora", "Braga", "Queluz"],
         "languages": [
 			"pt"
@@ -2475,7 +2475,7 @@
         "continent": "OC",
         "capital": "Ngerulmud",
         "currency": "Dollar (USD)",
-        "population": "21,503",
+        "population": "21,000",
         "cities": ["Koror", "Koror Town", "Kloulklubed", "Ulimang"],
         "languages": [
 			"en"
@@ -2488,7 +2488,7 @@
         "continent": "SA",
         "capital": "Asunción",
         "currency": "Guarani (PYG)",
-        "population": "6,725,308",
+        "population": "6,725,000",
         "cities": ["Ciudad del Este", "San Lorenzo", "Limpio", "Nemby"],
         "languages": [
 			"es",
@@ -2502,7 +2502,7 @@
         "continent": "AS",
         "capital": "Doha",
         "currency": "Rial (QAR)",
-        "population": "2,569,804",
+        "population": "2,569,000",
         "cities": ["Al Rayyan", "Al Wakrah", "Al Khor", "Al Wukayr"],
         "languages": [
 			"ar"
@@ -2515,7 +2515,7 @@
         "continent": "AF",
         "capital": "Saint-Denis",
         "currency": "Euro (EUR)",
-        "population": "865,826",
+        "population": "865,000",
         "cities": ["Saint-Paul", "Saint-Pierre", "Saint-André", "Saint-Joseph"],
         "languages": [
 			"fr"
@@ -2528,7 +2528,7 @@
         "continent": "EU",
         "capital": "Bucharest",
         "currency": "New Leu (RON)",
-        "population": "19,699,312",
+        "population": "19,699,000",
         "cities": ["Iași", "Timișoara", "Craiova", "Constanța"],
         "languages": [
 			"ro"
@@ -2541,7 +2541,7 @@
         "continent": "EU",
         "capital": "Belgrade",
         "currency": "Dinar (RSD)",
-        "population": "7,058,322",
+        "population": "7,058,000",
         "cities": ["Novi Sad", "Zemun", "Kragujevac", "Subotica"],
         "languages": [
 			"sr"
@@ -2554,7 +2554,7 @@
         "continent": "EU",
         "capital": "Moscow",
         "currency": "Ruble (RUB)",
-        "population": "144,342,396",
+        "population": "144,342,000",
         "cities": ["St Petersburg", "Samara", "Omsk", "Novosibirsk"],
         "languages": [
 			"ru"
@@ -2567,7 +2567,7 @@
         "continent": "AF",
         "capital": "Kigali",
         "currency": "Franc (RWF)",
-        "population": "11,917,508",
+        "population": "11,917,000",
         "cities": ["Butare", "Gitarama", "Ruhengeri", "Gisenyi"],
         "languages": [
 			"rw",
@@ -2582,7 +2582,7 @@
         "continent": "AS",
         "capital": "Riyadh",
         "currency": "Riyal (SAR)",
-        "population": "32,275,687",
+        "population": "32,275,000",
         "cities": ["Jeddah", "Mecca", "Medina", "Dammam"],
         "languages": [
 			"ar"
@@ -2595,7 +2595,7 @@
         "continent": "OC",
         "capital": "Honiara",
         "currency": "Dollar (SBD)",
-        "population": "599,419",
+        "population": "599,000",
         "cities": ["Auki", "Gizo", "Buala", "Tulagi"],
         "languages": [
 			"en"
@@ -2608,7 +2608,7 @@
         "continent": "AF",
         "capital": "Victoria",
         "currency": "Rupee (SCR)",
-        "population": "94,677",
+        "population": "94,000",
         "cities": ["Anse Boileau", "Bel Ombre", "Beau Vallon", "Cascade"],
         "languages": [
 			"fr",
@@ -2622,7 +2622,7 @@
         "continent": "AF",
         "capital": "Khartoum",
         "currency": "Pound (SDG)",
-        "population": "39,578,828",
+        "population": "39,578,000",
         "cities": ["Omdurman", "Nyala", "Port Sudan", "Kassala"],
         "languages": [
 			"ar",
@@ -2636,7 +2636,7 @@
         "continent": "EU",
         "capital": "Stockholm",
         "currency": "Krona (SEK)",
-        "population": "9,923,085",
+        "population": "9,923,000",
         "cities": ["Gothenburg", "Malmo", "Uppsala", "Sollentuna"],
         "languages": [
 			"sv"
@@ -2649,7 +2649,7 @@
         "continent": "AS",
         "capital": "Singapore",
         "currency": "Dollar (SGD)",
-        "population": "5,607,283",
+        "population": "5,607,000",
         "cities": ["", "", "", ""],
         "languages": [
 			"en",
@@ -2665,7 +2665,7 @@
         "continent": "AF",
         "capital": "Jamestown",
         "currency": "Pound (SHP)",
-        "population": "4,534",
+        "population": "5,000",
         "cities": ["Half Tree Hollow", "Longwood", "Georgetown", "Levelwood"],
         "languages": [
 			"en"
@@ -2678,7 +2678,7 @@
         "continent": "EU",
         "capital": "Ljubljana",
         "currency": "Euro (EUR)",
-        "population": "2,065,042",
+        "population": "2,065,000",
         "cities": ["Maribor", "Celje", "Kranj", "Velenje"],
         "languages": [
 			"sl"
@@ -2704,7 +2704,7 @@
         "continent": "EU",
         "capital": "Bratislava",
         "currency": "Euro (EUR)",
-        "population": "5,430,798",
+        "population": "5,430,000",
         "cities": ["Nitra", "Trnava", "Martin", "Poprad"],
         "languages": [
 			"sk"
@@ -2717,7 +2717,7 @@
         "continent": "AF",
         "capital": "Freetown",
         "currency": "Leone (SLL)",
-        "population": "7,396,190",
+        "population": "7,396,000",
         "cities": ["Bo", "Kenema", "Koidu", "Makeni"],
         "languages": [
 			"en"
@@ -2730,7 +2730,7 @@
         "continent": "EU",
         "capital": "City of San Marino",
         "currency": "Euro (EUR)",
-        "population": "33,203",
+        "population": "33,000",
         "cities": ["Serravalle", "Borgo Maggiore", "Domagnano", "Fiorentino"],
         "languages": [
 			"it"
@@ -2743,7 +2743,7 @@
         "continent": "AF",
         "capital": "Dakar",
         "currency": "CFA Franc (XOF)",
-        "population": "15,411,614",
+        "population": "15,411,000",
         "cities": ["Pikine", "Touba", "Saint-Louis", "Kaolack"],
         "languages": [
 			"fr"
@@ -2756,7 +2756,7 @@
         "continent": "AF",
         "capital": "Mogadishu",
         "currency": "Shilling (SOS)",
-        "population": "14,317,996",
+        "population": "14,318,000",
         "cities": ["Hargeisa", "Berbera", "Kismayo", "Merca"],
         "languages": [
 			"so",
@@ -2770,7 +2770,7 @@
         "continent": "SA",
         "capital": "Paramaribo",
         "currency": "Dollar (SRD)",
-        "population": "558,368",
+        "population": "558,000",
         "cities": ["Lelydorp", "Nieuw Nickerie", "Moengo", "Albina"],
         "languages": [
 			"nl"
@@ -2783,7 +2783,7 @@
         "continent": "AF",
         "capital": "Juba",
         "currency": "Pound (SSP)",
-        "population": "12,230,730",
+        "population": "12,230,000",
         "cities": ["Winejok", "Malakal", "Wau", "Pajok"],
         "languages": [
 			"en"
@@ -2796,7 +2796,7 @@
         "continent": "AF",
         "capital": "São Tomé",
         "currency": "Dobra (STD)",
-        "population": "199,910",
+        "population": "200,000",
         "cities": ["", "", "", ""],
         "languages": [
 			"pt"
@@ -2809,7 +2809,7 @@
         "continent": "NA",
         "capital": "San Salvador",
         "currency": "Colon (SVC)",
-        "population": "6,344,722",
+        "population": "6,344,000",
         "cities": ["Santa Ana", "San Miguel", "Mejicanos", "Santa Tecla"],
         "languages": [
 			"es"
@@ -2822,7 +2822,7 @@
         "continent": "NA",
         "capital": "Philipsburg",
         "currency": "Guilder (ANG)",
-        "population": "39,969",
+        "population": "40,000",
         "cities": ["Cul de Sac", "Koolbaai", "Simson Bay Village"],
         "languages": [
 			"nl",
@@ -2836,7 +2836,7 @@
         "continent": "AS",
         "capital": "Damascus",
         "currency": "Pound (SYP)",
-        "population": "18,430,453",
+        "population": "18,430,000",
         "cities": ["Aleppo", "Homs", "Hama", "Latakia"],
         "languages": [
 			"ar"
@@ -2849,7 +2849,7 @@
         "continent": "AF",
         "capital": "Lobamba",
         "currency": "Lilangeni (SZL)",
-        "population": "1,343,098",
+        "population": "1,343,000",
         "cities": ["Manzini", "Mbabane", "Big Bend", "Malkerns"],
         "languages": [
 			"en",
@@ -2863,7 +2863,7 @@
         "continent": "NA",
         "capital": "Cockburn Town",
         "currency": "Dollar (USD)",
-        "population": "34,900",
+        "population": "35,000",
         "cities": ["", "", "", ""],
         "languages": [
 			"en"
@@ -2876,7 +2876,7 @@
         "continent": "AF",
         "capital": "N'Djamena",
         "currency": "CFA Franc (XAF)",
-        "population": "14,452,543",
+        "population": "14,453,000",
         "cities": ["Moundou", "Sarh", "Kelo", "Koumra"],
         "languages": [
 			"fr",
@@ -2903,7 +2903,7 @@
         "continent": "AF",
         "capital": "Lomé",
         "currency": "CFA Franc (XOF)",
-        "population": "7,606,374",
+        "population": "7,606,000",
         "cities": ["Sokodé", "Kara", "Atakpamé", "Bassar"],
         "languages": [
 			"fr"
@@ -2916,7 +2916,7 @@
         "continent": "AS",
         "capital": "Bangkok",
         "currency": "Baht (THB)",
-        "population": "68,863,514",
+        "population": "68,863,000",
         "cities": ["Samut Prakan", "Nonthaburi", "Udon Thani", "Chon Buri"],
         "languages": [
 			"th"
@@ -2929,7 +2929,7 @@
         "continent": "AS",
         "capital": "Dushanbe",
         "currency": "Somoni (TJS)",
-        "population": "8,734,951",
+        "population": "8,734,000",
         "cities": ["Khujand", "Istaravshan", "Konibodom", "Vahdat"],
         "languages": [
 			"tg",
@@ -2943,7 +2943,7 @@
         "continent": "OC",
         "capital": "Fakaofo",
         "currency": "Dollar (NZD)",
-        "population": "1499",
+        "population": "1500",
         "cities": ["Atafu", "Nukunonu", "Fale old settlement"],
         "languages": [
 			"en"
@@ -2956,7 +2956,7 @@
         "continent": "OC",
         "capital": "Dili",
         "currency": "Dollar (USD)",
-        "population": "1,167,242",
+        "population": "1,167,000",
         "cities": ["Same", "Maliana", "Suai", "Liquica"],
         "languages": [
 			"pt"
@@ -2969,7 +2969,7 @@
         "continent": "AS",
         "capital": "Ashgabat",
         "currency": "Manat (TMT)",
-        "population": "5,662,544",
+        "population": "5,662,000",
         "cities": ["Dashoguz", "Mary", "Bayramaly", "Abadan"],
         "languages": [
 			"tk",
@@ -2983,7 +2983,7 @@
         "continent": "AF",
         "capital": "Tunis",
         "currency": "Dollar (TND)",
-        "population": "11,403,248",
+        "population": "11,403,000",
         "cities": ["Sfax", "Sousse", "Midoun", "Kairouan"],
         "languages": [
 			"ar"
@@ -2996,7 +2996,7 @@
         "continent": "OC",
         "capital": "Nuku'alofa",
         "currency": "Pa'anga (TOP)",
-        "population": "107,122",
+        "population": "107,000",
         "cities": ["Neiafu", "Haveluloto", "Vaini", "Pangai"],
         "languages": [
 			"en",
@@ -3010,7 +3010,7 @@
         "continent": "AS",
         "capital": "Ankara",
         "currency": "Lira (TRY)",
-        "population": "79,512,426",
+        "population": "79,512,000",
         "cities": ["Istanbul", "Adana", "Izmir", "Bursa"],
         "languages": [
 			"tr"
@@ -3023,7 +3023,7 @@
         "continent": "NA",
         "capital": "Port of Spain",
         "currency": "Dollar (TTD)",
-        "population": "1,364,962",
+        "population": "1,365,000",
         "cities": ["Chaguanas", "Mon Repos", "San Fernando", "Rio Claro"],
         "languages": [
 			"en"
@@ -3036,7 +3036,7 @@
         "continent": "OC",
         "capital": "Funafuti",
         "currency": "Dollar (AUD)",
-        "population": "11,097",
+        "population": "11,000",
         "cities": ["Savave Village", "Motufoua School", "Teava Village", "Tanrake Village"],
         "languages": [
 			"en"
@@ -3049,7 +3049,7 @@
         "continent": "AS",
         "capital": "Taipei",
         "currency": "Dollar (TWD)",
-        "population": "23,571,990",
+        "population": "23,572,000",
         "cities": ["Taichung", "Tainan City", "Banciao", "Hsinchu"],
         "languages": [
 			"zh"
@@ -3062,7 +3062,7 @@
         "continent": "AF",
         "capital": "Dodoma",
         "currency": "Shilling (TZS)",
-        "population": "55,572,201",
+        "population": "55,572,000",
         "cities": ["Dar es Salaam", "Mwanza", "Zanzibar", "Arusha"],
         "languages": [
 			"sw",
@@ -3076,7 +3076,7 @@
         "continent": "EU",
         "capital": "Kyiv",
         "currency": "Htyvnia (UAH)",
-        "population": "45,004,645",
+        "population": "45,004,000",
         "cities": ["Kharkiv", "Dnipro", "Donetsk", "Odesa"],
         "languages": [
 			"uk"
@@ -3089,7 +3089,7 @@
         "continent": "AF",
         "capital": "Kampala",
         "currency": "Shilling (UGX)",
-        "population": "41,487,965",
+        "population": "41,488,000",
         "cities": ["Gulu", "Lira", "Mbarara", "jinja"],
         "languages": [
 			"en",
@@ -3116,7 +3116,7 @@
         "continent": "NA",
         "capital": "Washington D.C.",
         "currency": "Dollar (USD)",
-        "population": "323,127,513",
+        "population": "323,127,000",
         "cities": ["New York", "California", "Chicago", "Texas"],
         "languages": [
 			"en"
@@ -3129,7 +3129,7 @@
         "continent": "SA",
         "capital": "Montevideo",
         "currency": "Peso (UYI)",
-        "population": "3,444,006",
+        "population": "3,444,000",
         "cities": ["Salto", "Las Piedras", "Rivera", "Melo"],
         "languages": [
 			"es"
@@ -3142,7 +3142,7 @@
         "continent": "AS",
         "capital": "Tashkent",
         "currency": "Sum (UZS)",
-        "population": "31,847,900",
+        "population": "31,848,000",
         "cities": ["Namangan", "Andijan", "Bukhara", "Nukus"],
         "languages": [
 			"uz",
@@ -3156,7 +3156,7 @@
         "continent": "EU",
         "capital": "Vatican City",
         "currency": "Euro (EUR)",
-        "population": "800",
+        "population": "1000",
         "cities": ["", "", "", ""],
         "languages": [
 			"it",
@@ -3170,7 +3170,7 @@
         "continent": "NA",
         "capital": "Kingstown",
         "currency": "Dollars (XCD)",
-        "population": "109,643",
+        "population": "109,000",
         "cities": ["Georgetown", "Byera Village", "Biabou", "Barrouallie"],
         "languages": [
 			"en"
@@ -3183,7 +3183,7 @@
         "continent": "SA",
         "capital": "Caracas",
         "currency": "Bolivar (VEF)",
-        "population": "31,568,179",
+        "population": "31,568,000",
         "cities": ["Maracaibo", "Maracay", "Valencia", "Barcelona"],
         "languages": [
 			"es"
@@ -3196,7 +3196,7 @@
         "continent": "NA",
         "capital": "Road Town",
         "currency": "Dollar (USD)",
-        "population": "30,661",
+        "population": "31,000",
         "cities": ["", "", "", ""],
         "languages": [
 			"en"
@@ -3209,7 +3209,7 @@
         "continent": "NA",
         "capital": "Charlotte Amalie",
         "currency": "Dollar (USD)",
-        "population": "107,510",
+        "population": "107,000",
         "cities": ["", "", "", ""],
         "languages": [
 			"en"
@@ -3222,7 +3222,7 @@
         "continent": "AS",
         "capital": "Hanoi",
         "currency": "Dong (VND)",
-        "population": "94,569,072",
+        "population": "94,569,000",
         "cities": ["Ho Chi Minh City", "Da Nang", "Haiphong", "Nha Trang"],
         "languages": [
 			"vi"
@@ -3235,7 +3235,7 @@
         "continent": "OC",
         "capital": "Port Vila",
         "currency": "Vatu (VUV)",
-        "population": "270,402",
+        "population": "270,000",
         "cities": ["Luganville", "Norsup", "Port-Olry", "Isangel"],
         "languages": [
 			"bi",
@@ -3250,7 +3250,7 @@
         "continent": "OC",
         "capital": "Mata-Utu",
         "currency": "CFP Franc (XPF)",
-        "population": "11,696",
+        "population": "11,000",
         "cities": ["Liku", "Alele", "Falaleu", "Akaka"],
         "languages": [
 			"fr"
@@ -3263,7 +3263,7 @@
         "continent": "OC",
         "capital": "Apia",
         "currency": "Tala (WST)",
-        "population": "195,125",
+        "population": "195,000",
         "cities": ["Mulifanua", "Asau", "Faleula", "Malie"],
         "languages": [
 			"sm",
@@ -3277,7 +3277,7 @@
         "continent": "EU",
         "capital": "Pristina",
         "currency": "Euro (EUR)",
-        "population": "1,816,200",
+        "population": "1,816,000",
         "cities": ["Prizren", "Mitrovica", "Suva Reka", "Ferizaj"],
         "languages": [
 			"sq",
@@ -3291,7 +3291,7 @@
         "continent": "AS",
         "capital": "Sana'a",
         "currency": "Rial (YER)",
-        "population": "27,584,213",
+        "population": "27,584,000",
         "cities": ["Al Hudaydah", "Ta‘izz", "Aden", "Al Mukalla"],
         "languages": [
 			"ar"
@@ -3304,7 +3304,7 @@
         "continent": "AF",
         "capital": "Mamoudzou",
         "currency": "Euro (EUR)",
-        "population": "258,556",
+        "population": "258,000",
         "cities": ["Koungou", "Dzaoudzi", "Dembeni", "Sada"],
         "languages": [
 			"fr"
@@ -3317,7 +3317,7 @@
         "continent": "AF",
         "capital": "Pretoria",
         "currency": "Rand (ZAR)",
-        "population": "56,015,473",
+        "population": "56,015,000",
         "cities": ["Cape Town", "Durban", "Soweto", "Benoni"],
         "languages": [
 			"af",
@@ -3339,7 +3339,7 @@
         "continent": "AF",
         "capital": "Lusaka",
         "currency": "Kwacha (ZMK)",
-        "population": "16,591,390",
+        "population": "16,591,000",
         "cities": ["Ndola", "Kabwe", "Chingola", "Mufulira"],
         "languages": [
 			"en"
@@ -3352,7 +3352,7 @@
         "continent": "AF",
         "capital": "Harare",
         "currency": "Dollar (ZWL)",
-        "population": "16,150,362",
+        "population": "16,150,000",
         "cities": ["Bulawayo", "Mutare", "Gweru", "Kwekwe"],
         "languages": [
 			"en",

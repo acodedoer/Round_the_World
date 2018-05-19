@@ -24,7 +24,7 @@ var winState ={
         this.txtRestart= game.add.bitmapText(1000, 800, 'myfont','Restart', 50);
         this.txtRestart.anchor.set(0.5);
         
-        this.btHome = game.add.sprite(600, 800, 'btHome');
+        this.btHome = game.add.sprite(600, 800, 'btFlag');
         this.btHome.anchor.set(0.5);
         this.btHome.inputEnabled= true;
         this.btHome.events.onInputDown.add(this.home, this);

@@ -19,7 +19,7 @@ var flagState ={
         this.livesImage = game.add.sprite(1150, 0, 'lives');
         this.livesImage.frame = 4;
         
-        this.ansPost = [{text:'', choice:''},{text:'', choice:''},{text:'', choice:''},{text:'', choice:''}];
+        this.ansPost = [{flag:'', choice:''},{flag:'', choice:''},{flag:'', choice:''},{flag:'', choice:''}];
         this.countriesAF = game.global.fullArray[game.global.continentIndex].slice(0);
         this.fullOptions=[];
 
@@ -31,27 +31,58 @@ var flagState ={
         //get states data from json
         getInfo = JSON.parse(game.cache.getText('infoAF'));   
         
-        this.questionLine1 = game.add.bitmapText(this.world.centerX, 450, 'myfont', "The flag of", 80);
-        this.questionLine2 = game.add.bitmapText(this.world.centerX, 550, 'myfont', "Democratic Republic of the Congo is ?", 80);
+        this.questionLine1 = game.add.bitmapText(this.world.centerX, 350, 'myfont', "The flag of", 80);
+        this.questionLine2 = game.add.bitmapText(this.world.centerX, 450, 'myfont', "Democratic Republic of the Congo is ?", 80);
         this.questionLine1.anchor.set(0.5);
         this.questionLine2.anchor.set(0.5);
-    
+        
+        var index=0;
+        var optYPos = 700;
+        var optXPos = 580;
+        
+        this.ansPost[0] = game.add.sprite(580, 700, 'option');
+        this.ansPost[0].anchor.setTo(0.5);
+        this.ansPost[0].inputEnabled = true;
+        this.ansPost[0].events.onInputDown.add(this.checkChoice, this);
+        
+        this.ansPost[1] = game.add.sprite(1000, 700, 'option');
+        this.ansPost[1].anchor.setTo(0.5);
+        this.ansPost[1].scale.x *=-1;
+        this.ansPost[1].inputEnabled = true;
+        this.ansPost[1].events.onInputDown.add(this.checkChoice, this);
+        
+        this.ansPost[2] = game.add.sprite(580, 1020, 'option');
+        this.ansPost[2].anchor.setTo(0.5);
+        this.ansPost[2].scale.y *=-1;
+        this.ansPost[2].inputEnabled = true;
+        this.ansPost[2].events.onInputDown.add(this.checkChoice, this);
+        
+        this.ansPost[3] = game.add.sprite(1000, 1020, 'option');
+        this.ansPost[3].anchor.setTo(0.5);
+        this.ansPost[3].scale.x *=-1;
+        this.ansPost[3].scale.y *=-1;
+        this.ansPost[3].inputEnabled = true;
+        this.ansPost[3].events.onInputDown.add(this.checkChoice, this);
 
         this.nextQuestion();
     },
 
-    setFlags: function(){
+    setFlags: function(data){
+        console.log('create options');
         var index =0;
-        var optXPos = 197.5;
+        var optXPos = 580;
         var optYPos = 700;
     
-    for(var i=0; i<4; i++){
-        this.ansPost[i] = game.add.sprite(optXPos, optYPos, this.countriesAF[i]);
-        this.ansPost.choice = this.countriesAF[i];
-        this.ansPost[i].anchor.setTo(0.5);
-        this.ansPost[i].inputEnabled = true;
-        this.ansPost[i].events.onInputDown.add(this.checkChoice, this);
-        optXPos+=400;
+    for(var i=0; i<2; i++){
+        for(var j=0; j<2;j++){
+           this.ansPost[index].flag = game.add.sprite(optXPos, optYPos, data[index]);
+            this.ansPost[index].flag.anchor.setTo(0.5);
+            this.ansPost[index].choice = data[index];
+            optXPos+=420; 
+            index+=1;
+            }
+        optXPos = 580;
+        optYPos +=320;
         }
     },
     
@@ -64,10 +95,12 @@ var flagState ={
     checkChoice: function(choice){
         choice.alpha = 0.5;
         if (this.answer == choice.choice){
+            choice.frame=1;
             this.correctSound.play();
             game.time.events.add(Phaser.Timer.SECOND * 0.2, this.correct, this);
         }
         else{
+            choice.frame=2;
             this.wrong();
         }
     },
@@ -75,19 +108,31 @@ var flagState ={
     wrong: function(){
         this.wrongSound.play();
         if (this.stats.lives <=0){
-           game.state.start('gameOver');
+            this.livesImage.alpha=0;
+            for(var m=0;m<4;m++){
+                this.ansPost[m].inputEnabled = false;
+                if (this.ansPost[m].choice ==this.answer){
+                    this.ansPost[m].frame=1; 
+                }
+            }
+            game.time.events.add(Phaser.Timer.SECOND *3, this.gameover, this);
         }
         else{
             this.stats.lives-=1;
             this.streak=0;
             this.livesImage.frame = this.stats.lives;}
+
+    },
+    
+    gameover: function(){
+        game.state.start('gameOver');
     },
 
     correct: function(){
         game.global.score+=1;
         this.txtScore.setText( "SCORE: "+game.global.score);
         this.streak+=1;
-        if(this.streak>=5){this.bonus();}
+        if(this.streak>=3){this.bonus();}
         this.countriesAF.pop();
         this.reset();
         this.nextQuestion();
@@ -102,7 +147,8 @@ bonus:function(){
     },
     reset: function(){
        for (var i =0; i<4; i++){
-            this.ansPost[i].destroy();
+            this.ansPost[i].flag.destroy();
+           this.ansPost[i].frame=0;
         }
         this.options=[];
     },
@@ -129,17 +175,7 @@ bonus:function(){
         }
         Phaser.ArrayUtils.shuffle(this.options);
         console.log(this.options);
-        this.index =0;
-        this.optXPos = 197.5;
-        this.optYPos = 700;
-
-        for(var i=0; i<4; i++){
-            this.ansPost[i] = game.add.sprite(this.optXPos, this.optYPos, this.options[i]);
-            this.ansPost[i].anchor.setTo(0.5);
-            this.ansPost[i].choice = this.options[i];
-            this.ansPost[i].inputEnabled = true;
-            this.ansPost[i].events.onInputDown.add(this.checkChoice, this);
-            this.optXPos+=400;
-        }
+        
+        this.setFlags(this.options);
         },
     };

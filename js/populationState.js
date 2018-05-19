@@ -22,8 +22,8 @@ var populationState ={
         //get states data from json
         getInfo = JSON.parse(game.cache.getText('infoAF'));   
         
-        this.questionLine1 = game.add.bitmapText(this.world.centerX, 450, 'myfont', "The population of", 80);
-        this.questionLine2 = game.add.bitmapText(this.world.centerX, 550, 'myfont', "Democratic Republic of the Congo is ?", 80);
+        this.questionLine1 = game.add.bitmapText(this.world.centerX, 350, 'myfont', "The population of", 80);
+        this.questionLine2 = game.add.bitmapText(this.world.centerX, 450, 'myfont', "Democratic Republic of the Congo is ?", 80);
         this.questionLine1.anchor.set(0.5);
         this.questionLine2.anchor.set(0.5);
 
@@ -42,22 +42,39 @@ var populationState ={
         this.livesImage.frame = 4;
         //stats.text.anchor.setTo(0.5,0.5);
 
-        var index =0;
-        var optXPos = 197.5;
+        var index=0;
         var optYPos = 700;
-    
-    for(var i=0; i<4; i++){
-        this.ansPost[i] = game.add.sprite(optXPos, optYPos, 'btCapital');
-        this.ansPost[i].anchor.setTo(0.5);
-        this.ansPost[i].anchor.setTo(0.5);
-        this.ansPost[i].scale.setTo(1);
-        this.ansPost[i].text = game.add.bitmapText(optXPos, optYPos, 'myfont', '', 45);
-        this.ansPost[i].text.maxWidth = 300;
-        this.ansPost[i].text.anchor.setTo(0.5);
-         this.ansPost[i].text.align = 'center'
-        this.ansPost[i].inputEnabled = true;
-        this.ansPost[i].events.onInputDown.add(this.checkChoice, this);
-        optXPos+=400;
+        var optXPos = 580;
+        
+        this.ansPost[0] = game.add.sprite(580, 700, 'option');
+        this.ansPost[0].anchor.setTo(0.5);
+        
+        this.ansPost[1] = game.add.sprite(1000, 700, 'option');
+        this.ansPost[1].anchor.setTo(0.5);
+        this.ansPost[1].scale.x *=-1;
+        
+        this.ansPost[2] = game.add.sprite(580, 1020, 'option');
+        this.ansPost[2].anchor.setTo(0.5);
+        this.ansPost[2].scale.y *=-1;
+        
+        this.ansPost[3] = game.add.sprite(1000, 1020, 'option');
+        this.ansPost[3].anchor.setTo(0.5);
+        this.ansPost[3].scale.x *=-1;
+        this.ansPost[3].scale.y *=-1;
+        
+        for(var j=0;j<2;j++){
+            for(var i=0; i<2;i++){
+                this.ansPost[index].text = game.add.bitmapText(optXPos, optYPos, 'myfont', '', 45);
+                this.ansPost[index].text.maxWidth = 300;
+                this.ansPost[index].text.anchor.setTo(0.5);
+                this.ansPost[index].text.align = 'center'
+                this.ansPost[index].inputEnabled = true;
+                this.ansPost[index].events.onInputDown.add(this.checkChoice, this);
+                optXPos+=420;
+                index+=1;
+            }
+            optYPos +=320;
+            optXPos = 580;
         }
         
         this.nextQuestion();
@@ -73,26 +90,37 @@ var populationState ={
     },
 
     checkChoice: function(choice){
-        choice.alpha =0.5;
         if (this.answer == choice.choice){
             this.correctSound.play();
+            choice.frame=1;
             game.time.events.add(Phaser.Timer.SECOND * 0.2, this.correct, this);
         }
         else{
             this.wrong();
+            choice.frame=2;
         }
     },
 
      wrong: function(){
          this.wrongSound.play();
         if (this.stats.lives <=0){
-            game.state.start('gameOver');
+            this.livesImage.alpha=0;
+            for(var m=0;m<4;m++){
+                this.ansPost[m].inputEnabled = false;
+                if (this.ansPost[m].choice ==this.answer){
+                    this.ansPost[m].frame=1;
+                }
+            }
+            game.time.events.add(Phaser.Timer.SECOND *3, this.gameover, this);
         }
         else{
             this.stats.lives-=1;
             this.streak=0;
             this.livesImage.frame = this.stats.lives;}
 
+    },
+    gameover: function(){
+        game.state.start('gameOver');
     },
 
     correct: function(){
@@ -101,12 +129,12 @@ var populationState ={
             game.state.start('winState');
         }
         else{
-        game.global.score+=1;
-        this.txtScore.setText('SCORE: '+game.global.score);
-        this.streak+=1;
-        if(this.streak>=5){this.bonus();}
-        this.countriesAF.pop()
-        this.nextQuestion();
+            game.global.score+=1;
+            this.txtScore.setText('SCORE: '+game.global.score);
+            this.streak+=1;
+            if(this.streak>=3){this.bonus();}
+            this.countriesAF.pop()
+            this.nextQuestion();
         }
         console.log(this.streak);
     },
@@ -120,7 +148,8 @@ var populationState ={
     },
     reset: function(){
        for (var i =0; i<4; i++){
-            this.ansPost[i].alpha =1;
+            this.ansPost[i].frame =0;
+           this.ansPost[i].inputEnabled = true;
         }
         this.options=[];
 
