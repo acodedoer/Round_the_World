@@ -96,7 +96,6 @@ var flagState ={
     
 
     checkChoice: function(choice){
-        choice.alpha = 0.5;
         if (this.answer == choice.choice){
             choice.frame=1;
             this.correctSound.play();
@@ -146,7 +145,7 @@ var flagState ={
 bonus:function(){
         this.streak=0;
         if(this.stats.lives<4){
-            this.overSound.play();
+            this.streakSound.play();
             this.stats.lives+=1;
             this.livesImage.frame = this.stats.lives;}
     },
