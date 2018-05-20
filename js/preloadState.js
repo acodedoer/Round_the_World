@@ -1,6 +1,16 @@
 var preloadState ={   
     //load all flgas, bitmap text, buttons
     preload: function() {
+        this.bg = game.add.bitmapText(this.world.centerX,400,'myfont', "Round the World", 150);
+        this.bg.anchor.setTo(0.5);
+        
+        this.globe = game.add.sprite(this.world.centerX,700,'globe');
+        this.globe.anchor.setTo(0.5);
+        
+        this.loadBar = game.add.sprite(this.world.centerX,950,'loadingBar');
+        this.loadBar.anchor.setTo(0.5);
+        this.load.setPreloadSprite(this.loadBar);
+        
         game.load.image('AF', 'assets/flags/AF.png');
         game.load.image('AX', 'assets/flags/AX.png');
         game.load.image('AL', 'assets/flags/AL.png');
@@ -251,17 +261,13 @@ var preloadState ={
         game.load.image('ZM', 'assets/flags/ZM.png');
         game.load.image('ZW', 'assets/flags/ZW.png');
         
-        game.load.image('AF_map', 'assets/maps/AF_map.png');
-        
         game.load.image('leftArrow', 'assets/images/leftArrow.png');
         game.load.image('rightArrow', 'assets/images/rightArrow.png');
         this.game.load.spritesheet('option', 'assets/images/options.png', 404,304,3);
-        this.game.load.image('btCapital', 'assets/images/answer.png');
         this.game.load.image('btFlag', 'assets/images/bt2.png');
-        this.game.load.image('btPopulation', 'assets/images/bt3.png');
         this.game.load.image('btBack', 'assets/images/back.png');
         this.game.load.image('btHome', 'assets/images/options.png'); 
-        this.game.load.bitmapFont('myfont', 'assets/fonts/fontshadow.png','assets/fonts/fontshadow.fnt');
+        this.game.load.bitmapFont('myguifont', 'assets/fonts/guifont.png','assets/fonts/guifont.fnt');
         this.game.load.spritesheet('lives', 'assets/images/lives.png', 324, 68, 5);
         this.game.load.text('infoAF', 'js/countries.json ');
         
@@ -271,6 +277,10 @@ var preloadState ={
         this.game.load.audio('back', 'assets/audio/back.ogg');
         this.game.load.audio('correct2', 'assets/audio/correct2.ogg');
         this.game.load.audio('click', 'assets/audio/click.ogg');
+        this.game.load.audio('streak', 'assets/audio/streak.ogg');
+        this.game.load.audio('won', 'assets/audio/gamewon.ogg');
+        this.game.load.audio('over', 'assets/audio/gameover.ogg');
+        
     },
 
     create: function() {

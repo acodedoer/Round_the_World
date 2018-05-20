@@ -186,13 +186,13 @@
 		]
     },
     "AX": {
-        "name": "Åland",
+        "name": "Aland",
         "native": "Åland",
         "phone": "358",
         "continent": "EU",
         "capital": "Mariehamn",
         "currency": "Euro (EUR)",
-        "population": "0",
+        "population": "29,000",
         "cities": ["Jomala", "Finström", "Lemland", "Saltvik"],
         "languages": [
 			"sv"

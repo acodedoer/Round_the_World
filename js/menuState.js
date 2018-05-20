@@ -17,37 +17,44 @@ var menuState ={
         this.right.inputEnabled = true;
         this.right.events.onInputDown.add(this.onRArrowClick, this);
         
-        var btCapital = game.add.sprite(500, 600, 'btFlag');
+        var btCapital = game.add.sprite(500, 500, 'btFlag');
         btCapital.anchor.set(0.5);
         btCapital.inputEnabled = true;
         btCapital.events.onInputDown.add(this.startCapitalMode, this);
         
-        var btFlag = game.add.sprite(  1100, 600, 'btFlag');
+        var btFlag = game.add.sprite(  1100, 500, 'btFlag');
         btFlag.anchor.set(0.5);
         btFlag.inputEnabled = true;
         btFlag.events.onInputDown.add(this.startFlagMode, this);
         
-        var btPopulation = game.add.sprite(500, 800, 'btFlag', 50);
+        var btPopulation = game.add.sprite(500, 900, 'btFlag', 50);
         btPopulation.anchor.set(0.5);
         btPopulation.inputEnabled = true;
         btPopulation.events.onInputDown.add(this.startPopulationMode, this);
         
-        var btCurrency = game.add.sprite(1100, 800, 'btFlag', 50);
+        var btCurrency = game.add.sprite(1100, 900, 'btFlag', 50);
         btCurrency.anchor.set(0.5);
         btCurrency.inputEnabled = true;
         btCurrency.events.onInputDown.add(this.startCurrencyMode, this);
         
+        var btLearn = game.add.sprite(this.world.centerX, 700, 'btFlag', 50);
+        btLearn.anchor.set(0.5);
+        btLearn.inputEnabled = true;
+        btLearn.events.onInputDown.add(this.startLearnMode, this);
         
-        var btCapitalText = game.add.bitmapText(500, 600, 'myfont','Capitals', 50);
+        var btLearnText = game.add.bitmapText(this.world.centerX, 700, 'myfont','Learn', 50);
+        btLearnText.anchor.set(0.5);
+        
+        var btCapitalText = game.add.bitmapText(500, 500, 'myfont','Capitals', 50);
         btCapitalText.anchor.set(0.5);
         
-        var btFlagText = game.add.bitmapText(1100, 600,'myfont', 'Flags', 50);
+        var btFlagText = game.add.bitmapText(1100, 500,'myfont', 'Flags', 50);
         btFlagText.anchor.set(0.5);
         
-        var btPopulationText = game.add.bitmapText(500, 800, 'myfont','Population', 50);
+        var btPopulationText = game.add.bitmapText(500, 900, 'myfont','Population', 50);
         btPopulationText.anchor.set(0.5);
         
-        var btCurrencyText = game.add.bitmapText(1100, 800, 'myfont','Currency', 50);
+        var btCurrencyText = game.add.bitmapText(1100, 900, 'myfont','Currency', 50);
         btCurrencyText.anchor.set(0.5);
         
         this.Continents =['Africa','Americas', 'Asia', 'Australia','Europe'];
@@ -103,7 +110,12 @@ var menuState ={
         this.state.start('currencyState');
         game.global.modeIndex = 3;
     },
-    
+    startLearnMode: function(){
+        console.log('outside');
+        this.clickSound.play();
+       // this.updateModeArrays();
+        this.state.start('learnState');
+    },
     updateModeArrays: function(){
         game.global.modeArray = game.global.fullArray[game.global.modeIndex];
     }

@@ -18,6 +18,9 @@ var populationState ={
         this.correctSound2 = game.add.audio('correct2');
         this.wrongSound = game.add.audio('wrong');
         this.clickSound = game.add.audio('click');
+        this.overSound = game.add.audio('over');
+        this.streakSound = game.add.audio('streak');
+        
         
         //get states data from json
         getInfo = JSON.parse(game.cache.getText('infoAF'));   
@@ -30,7 +33,7 @@ var populationState ={
         
         this.stats= {textS:"", lives:4};
 
-        this.txtScore = game.add.bitmapText(this.world.centerX, 45, 'myfont', "SCORE: "+game.global.score, 60);
+        this.txtScore = game.add.bitmapText(this.world.centerX, 45, 'myguifont', "SCORE: "+game.global.score, 60);
         this.txtScore.anchor.setTo(0.5,0.5);
         
         
@@ -102,9 +105,10 @@ var populationState ={
     },
 
      wrong: function(){
-         this.wrongSound.play();
+         
         if (this.stats.lives <=0){
             this.livesImage.alpha=0;
+            this.overSound.play();
             for(var m=0;m<4;m++){
                 this.ansPost[m].inputEnabled = false;
                 if (this.ansPost[m].choice ==this.answer){
@@ -114,6 +118,7 @@ var populationState ={
             game.time.events.add(Phaser.Timer.SECOND *3, this.gameover, this);
         }
         else{
+            this.wrongSound.play();
             this.stats.lives-=1;
             this.streak=0;
             this.livesImage.frame = this.stats.lives;}
@@ -142,7 +147,7 @@ var populationState ={
     bonus:function(){
         this.streak=0;
         if(this.stats.lives<4){
-            this.correctSound2.play()
+            this.streakSound.play();
             this.stats.lives+=1;
             this.livesImage.frame = this.stats.lives;}
     },

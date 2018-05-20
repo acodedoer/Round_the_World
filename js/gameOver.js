@@ -15,7 +15,7 @@ var gameOver ={
         }
         
         
-        this.gameOverText1 = game.add.bitmapText(game.world.centerX, 300, 'myfont','Game Over', 120);
+        this.gameOverText1 = game.add.bitmapText(game.world.centerX, 300, 'myguifont','Game Over', 120);
         this.gameOverText1.anchor.set(0.5);
         this.gameOverText2 = game.add.bitmapText(game.world.centerX, 420, 'myfont','Continent: ' + this.continents[game.global.continentIndex], 70);
         this.gameOverText2.anchor.set(0.5);

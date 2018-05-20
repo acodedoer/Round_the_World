@@ -1,12 +1,14 @@
 var winState ={    
-    create: function() {       
+    create: function() {   
+        this.wonSound = game.add.audio('won');
+        this.wonSound.play();
         this.continents = ['Africa', 'America', 'Asia', 'Australia', 'Europe'];
         this.modes = ['Capitals', 'Flags', 'Population', 'Currency'];
         this.states =['capitalState', 'flagState', 'populationState', 'currencyState'];
         
         this.clickSound = game.add.audio('click');
         
-        this.gameOverText1 = game.add.bitmapText(game.world.centerX, 300, 'myfont','You did it!', 120);
+        this.gameOverText1 = game.add.bitmapText(game.world.centerX, 300, 'myguifont','You did it!', 120);
         this.gameOverText1.anchor.set(0.5);
         this.gameOverText2 = game.add.bitmapText(game.world.centerX, 500, 'myfont',"You've mastered the " +this.modes[game.global.modeIndex]+" of \n "+this.continents[game.global.continentIndex], 70);
         this.gameOverText2.anchor.set(0.5);

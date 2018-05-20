@@ -17,5 +17,6 @@ game.state.add('gameOver', gameOver);
 game.state.add('winState', winState);
 game.state.add('menuState', menuState);
 game.state.add('preloadState', preloadState);
+game.state.add('learnState', learnState);
 game.state.add('BootState', BootState);
 game.state.start('BootState');

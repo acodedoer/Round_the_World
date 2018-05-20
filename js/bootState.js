@@ -8,8 +8,9 @@ var BootState = {
     },
     
     preload: function() {
-  	//this.load.image('preloadBar', 'assets/images/bar.png');
-  	//this.load.image('logo', 'assets/images/logo.png');
+    this.game.load.bitmapFont('myfont', 'assets/fonts/fontshadow.png','assets/fonts/fontshadow.fnt');
+  	this.load.image('loadingBar', 'assets/images/load3.png');
+    this.load.image('globe', 'assets/images/globe.png');
     },
 
     create: function() {
