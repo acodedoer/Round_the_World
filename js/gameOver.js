@@ -55,7 +55,7 @@ var gameOver ={
         this.state.start(this.states[game.global.modeIndex]);
     },
     feedback: function(){
-        window.open("https://play.google.com/store/apps/details?id=com.vohogames.animalpuzzle", "_blank");
+        window.open("https://www.surveymonkey.co.uk/user/sign-up/", "_blank");
     },
     
     home: function(){
