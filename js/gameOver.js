@@ -39,11 +39,23 @@ var gameOver ={
         this.btHome.events.onInputDown.add(this.home, this);
         this.txtHome= game.add.bitmapText(600, 800, 'myfont','Main Menu', 50);
         this.txtHome.anchor.set(0.5);
+        
+        this.btFeedback = game.add.sprite(game.world.centerX, 1000, 'btFlag');
+        this.btFeedback.anchor.set(0.5);
+        this.btFeedback.inputEnabled= true;
+        this.btFeedback.events.onInputDown.add(this.feedback, this);
+        this.btFeedback= game.add.bitmapText(game.world.centerX, 1000, 'myfont','Give us Feedback', 50);
+        this.btFeedback.maxWidth = 300;
+        this.btFeedback.align = 'center';
+        this.btFeedback.anchor.set(0.5);
     },
     
     restart: function(){
         this.clickSound.play();
         this.state.start(this.states[game.global.modeIndex]);
+    },
+    feedback: function(){
+        window.open("https://play.google.com/store/apps/details?id=com.vohogames.animalpuzzle", "_blank");
     },
     
     home: function(){

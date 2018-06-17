@@ -1,4 +1,7 @@
 var game = new Phaser.Game(1600, 1200, Phaser.AUTO);
+Phaser.Device.whenReady(function () {
+            game.plugins.add(PhaserInput.Plugin);
+        });
 
 game.global = {
     score : 0,              //for keeping score in the different modes and displaying on game over  
