@@ -14,7 +14,7 @@ var preloadState ={
         for( i = 0; i< this.game.global.fullArray.length; i++){
             for( j = 0; j< this.game.global.fullArray[i].length; j++){
                 console.log(this.game.global.fullArray[i][j])
-                this.game.load.image(this.game.global.fullArray[i][j], 'assets/flags/'+this.game.global.fullArray[i][j]+'.png');
+                this.game.load.image(this.game.global.fullArray[i][j], 'assets/flags/'+this.game.global.fullArray[i][j].toLowerCase()+'.png');
             }
         }
     
