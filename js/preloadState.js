@@ -43,8 +43,6 @@ var preloadState ={
     create: function() {
         for (var i= 0; i<5; i++){
             for (var j= 0; j<5; j++){
-                console.log(''+i+''+j);
-                console.log(localStorage.getItem(''+i+''+j));
             if(localStorage.getItem(''+i+''+j) == null){}
             else{
                 game.global.highscore[i][j] = localStorage.getItem(''+i+''+j);
